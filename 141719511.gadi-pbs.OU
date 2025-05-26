@@ -1,0 +1,64 @@
+usage: conda [-h] [-V] command ...
+
+conda is a tool for managing and deploying applications, environments and packages.
+
+Options:
+
+positional arguments:
+  command
+    clean        Remove unused packages and caches.
+    compare      Compare packages between conda environments.
+    config       Modify configuration values in .condarc. This is modeled
+                 after the git config command. Writes to the user .condarc
+                 file (/home/548/cd3022/.condarc) by default.
+    create       Create a new conda environment from a list of specified
+                 packages.
+    info         Display information about current conda install.
+    init         Initialize conda for shell interaction. [Experimental]
+    install      Installs a list of packages into a specified conda
+                 environment.
+    list         List linked packages in a conda environment.
+    package      Low-level conda package utility. (EXPERIMENTAL)
+    remove       Remove a list of packages from a specified conda environment.
+    uninstall    Alias for conda remove.
+    run          Run an executable in a conda environment.
+    search       Search for packages and display associated information. The
+                 input is a MatchSpec, a query language for conda packages.
+                 See examples below.
+    update       Updates conda packages to the latest compatible version.
+    upgrade      Alias for conda update.
+
+optional arguments:
+  -h, --help     Show this help message and exit.
+  -V, --version  Show the conda version number and exit.
+
+conda commands available from other packages:
+  build
+  content-trust
+  convert
+  debug
+  develop
+  env
+  index
+  inspect
+  metapackage
+  render
+  server
+  skeleton
+Traceback (most recent call last):
+  File "/home/548/cd3022/Irradiance-comparisons/himawari-era5.py", line 11, in <module>
+    date_dt = first_dt + relativedelta(months = months_per_batch * x)
+NameError: name 'first_dt' is not defined
+
+======================================================================================
+                  Resource Usage on 2025-05-26 17:01:51:
+   Job Id:             141719511.gadi-pbs
+   Project:            er8
+   Exit Status:        1
+   Service Units:      0.27
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 00:00:04        
+   Memory Requested:   192.0GB               Memory Used: 296.09MB        
+   Walltime requested: 01:00:00            Walltime Used: 00:00:10        
+   JobFS requested:    10.0GB                 JobFS used: 0B              
+======================================================================================
