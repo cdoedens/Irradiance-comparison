@@ -7,7 +7,7 @@
 #PBS -l other=hyperthread
 #PBS -q normal
 #PBS -P er8
-#PBS -o /home/548/cd3022/Irradiance-comparisons
+#PBS -o /home/548/cd3022/Irradiance-comparisons/logs
 #PBS -j oe
 module use /g/data3/hh5/public/modules
 module load conda/analysis3

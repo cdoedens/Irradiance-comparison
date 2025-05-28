@@ -45,20 +45,20 @@ conda commands available from other packages:
   render
   server
   skeleton
-Traceback (most recent call last):
-  File "/home/548/cd3022/Irradiance-comparisons/himawari-era5.py", line 11, in <module>
-    date_dt = first_dt + relativedelta(months = months_per_batch * x)
-NameError: name 'first_dt' is not defined
+  File "/home/548/cd3022/Irradiance-comparisons/himawari-era5.py", line 132
+    monthly_mean_path = f'{monthly_mean_dir}{start_date.strftime('%Y-%m')}.nc'
+                                                                  ^
+SyntaxError: f-string: unmatched '('
 
 ======================================================================================
-                  Resource Usage on 2025-05-26 17:01:51:
-   Job Id:             141719511.gadi-pbs
+                  Resource Usage on 2025-05-27 17:47:28:
+   Job Id:             141837700.gadi-pbs
    Project:            er8
    Exit Status:        1
-   Service Units:      0.27
+   Service Units:      0.13
    NCPUs Requested:    48                     NCPUs Used: 48              
-                                           CPU Time Used: 00:00:04        
-   Memory Requested:   192.0GB               Memory Used: 296.09MB        
-   Walltime requested: 01:00:00            Walltime Used: 00:00:10        
+                                           CPU Time Used: 00:00:03        
+   Memory Requested:   192.0GB               Memory Used: 69.59MB         
+   Walltime requested: 01:00:00            Walltime Used: 00:00:05        
    JobFS requested:    10.0GB                 JobFS used: 0B              
 ======================================================================================

@@ -1,0 +1,61 @@
+usage: conda [-h] [-V] command ...
+
+conda is a tool for managing and deploying applications, environments and packages.
+
+Options:
+
+positional arguments:
+  command
+    clean        Remove unused packages and caches.
+    compare      Compare packages between conda environments.
+    config       Modify configuration values in .condarc. This is modeled
+                 after the git config command. Writes to the user .condarc
+                 file (/home/548/cd3022/.condarc) by default.
+    create       Create a new conda environment from a list of specified
+                 packages.
+    info         Display information about current conda install.
+    init         Initialize conda for shell interaction. [Experimental]
+    install      Installs a list of packages into a specified conda
+                 environment.
+    list         List linked packages in a conda environment.
+    package      Low-level conda package utility. (EXPERIMENTAL)
+    remove       Remove a list of packages from a specified conda environment.
+    uninstall    Alias for conda remove.
+    run          Run an executable in a conda environment.
+    search       Search for packages and display associated information. The
+                 input is a MatchSpec, a query language for conda packages.
+                 See examples below.
+    update       Updates conda packages to the latest compatible version.
+    upgrade      Alias for conda update.
+
+optional arguments:
+  -h, --help     Show this help message and exit.
+  -V, --version  Show the conda version number and exit.
+
+conda commands available from other packages:
+  build
+  content-trust
+  convert
+  debug
+  develop
+  env
+  index
+  inspect
+  metapackage
+  render
+  server
+  skeleton
+=>> PBS: job killed: walltime 3645 exceeded limit 3600
+
+======================================================================================
+                  Resource Usage on 2025-05-27 13:03:42:
+   Job Id:             141785493.gadi-pbs
+   Project:            er8
+   Exit Status:        -29 (Job failed due to exceeding walltime)
+   Service Units:      97.49
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 00:57:10        
+   Memory Requested:   192.0GB               Memory Used: 38.91GB         
+   Walltime requested: 01:00:00            Walltime Used: 01:00:56        
+   JobFS requested:    10.0GB                 JobFS used: 0B              
+======================================================================================
