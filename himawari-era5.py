@@ -43,7 +43,7 @@ def himawari_era5_diff(date):
     # Restrict ERA5 domain to Himawari domain
     era5_aus = era5.sel(
         latitude=slice(-10, -44.5),
-        longitude=slice(156.26, 112)
+        longitude=slice(112, 156.26)
     )
     
     # Get monthly mean
