@@ -7,14 +7,15 @@ import sys
 
 # qsub -I -q normal -P er8 -l walltime=1:00:00,ncpus=24,mem=120GB,jobfs=100MB,storage=gdata/xp65+gdata/er8+gdata/ob53+gdata/rt52+gdata/rv74
 
-dataset = sys.argv[1]
+dataset_1 = sys.argv[1]
+dataset_2 = sys.argv[2]
 
-# Load Himawari data
-himawari = xr.open_dataset('/g/data/er8/users/cd3022/Irradiance-comparisons/himawari_ghi_means/himawari_monthly.nc')
+# Load datasets
+file_path_1 = Path(f'/g/data/er8/users/cd3022/Irradiance-comparisons/{dataset_1}_ghi_means')
+ds1 = xr.open_dataset(f'{file_path_1}/{dataset_1}_monthly.nc')
 
-# Load comparison dataset
-file_path = Path(f'/g/data/er8/users/cd3022/Irradiance-comparisons/{dataset}_ghi_means')
-ds = xr.open_dataset(f'{file_path}/{dataset}_monthly.nc')
+file_path_2 = Path(f'/g/data/er8/users/cd3022/Irradiance-comparisons/{dataset_2}_ghi_means')
+ds2 = xr.open_dataset(f'{file_path_2}/{dataset_2}_monthly.nc')
 
 # PLOT
 month_names = {
@@ -35,30 +36,35 @@ month_names = {
 fig, ax = plt.subplots(ncols=4, nrows=3, figsize=(16,10), subplot_kw={'projection': ccrs.PlateCarree()})
 ax = ax.flatten()
 
-for i, month in enumerate(himawari.month):
-    him_data = himawari.sel(month=month)
-    ds_data = ds.sel(month=month)
+for i, month in enumerate(ds1.month):
+    ds1_data = ds1.sel(month=month)
+    ds2_data = ds2.sel(month=month)
 
-    # regrid himawari to BARRA-C2 resolution
-    him_on_ds_grid = him_data.interp(
-        lat=ds_data.lat,
-        lon=ds_data.lon,
-        method="linear"   # or "nearest", "cubic" etc.
-    )
-    diff = ds_data - him_on_ds_grid
-    # diff = diff * 277.78 / 24 # MJ to Wh (and hence avg W)
-    lon2d, lat2d = np.meshgrid(diff['lon'].values, diff['lat'].values) 
+    # regrid fine resolution to coarse resolution so datasets match
+    if ds1_data.ghi.shape[0] > ds2_data.ghi.shape[0]:
+        ds1_data = ds1_data.interp(
+            lat=ds2_data.lat,
+            lon=ds2_data.lon,
+            method='nearest' # 'linear', 'nearest', 'cubic'
+        )
+    else:
+        ds2_data = ds2_data.interp(
+            lat=ds1_data.lat,
+            lon=ds1_data.lon,
+            method='linear'
+        )
+    diff = ds2_data - ds1_data
     mesh = ax[i].pcolormesh(
-        lon2d,
-        lat2d,
-        diff.ghi.values,
+        diff.lon,
+        diff.lat,
+        diff.ghi,
         cmap='RdBu_r', shading='auto',
         vmin=-40, vmax=40,
         transform=ccrs.PlateCarree()
     )
     ax[i].coastlines()
     ax[i].set_title(month_names[str(month.data)])
-fig.suptitle(f'{dataset.upper()} - Himawari', fontsize=18)
+fig.suptitle(f'{dataset_2.upper()} - {dataset_1.upper()}', fontsize=18)
 cbar = fig.colorbar(mesh, ax=ax, orientation='vertical', fraction=0.02, pad=0.04)
-cbar.set_label("Surface Downward SW bias (MJ/m²)")
-plt.savefig(f'/home/548/cd3022/figures/Irradiance_comparisons/{dataset}-Himwari_monthly.png')
+cbar.set_label("Surface Downward SW bias (W/m²)")
+plt.savefig(f'/home/548/cd3022/figures/Irradiance_comparisons/{dataset_2}-{dataset_1}_monthly.png')
