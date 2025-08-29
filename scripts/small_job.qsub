@@ -14,4 +14,4 @@ cd /home/548/cd3022/repos/Irradiance-comparisons
 
 source ./env.sh
 
-python3 scripts/calc_biases.py ceres barra-r2
+python3 scripts/timeseries_rmse.py
