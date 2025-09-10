@@ -3,17 +3,16 @@ import xarray as xr
 import numpy as np
 import matplotlib.pyplot as plt
 from pathlib import Path
+import logger
 import datetime
 import xesmf as xe
+
+from read_datasets import read_dataset
 
 from dask.distributed import Client, wait
 import os, sys
 
-sys.path.append('/home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons')
-import logger
-from read_datasets import read_dataset
-
-year = sys.argv[1]
+year_month = sys.argv[1]
 LOG = logger.get_logger(__name__)
 # qsub -I -q normal -P er8 -l walltime=2:00:00,ncpus=24,mem=120GB,jobfs=100MB,storage=gdata/xp65+gdata/er8+gdata/ob53+gdata/rt52+gdata/rv74+gdata/su28
 
@@ -34,39 +33,51 @@ def rmse_workflow(ds1, ds2):
     
 if __name__ == '__main__':
     client = Client(
-        n_workers=12,
-        threads_per_worker=1,
+        n_workers=6,
+        threads_per_worker=4,
+        processes=False,
+        memory_limit = int(os.environ['PBS_VMEM']) / int(os.environ['PBS_NCPUS']),
     )
-    ds1_list = []
-    ds2_list = []
-    for month in range(1,13):
-        date = f'{year}-{month:02d}'
-        ds1 = read_dataset(
-                dataset='himawari',
-                resolution='daily',
-                date=date
-            )
-        ds1_list.append(ds1)
-        ds2 = read_dataset(
-                dataset='barra-r2',
-                resolution='daily',
-                date=date
-            )
-        ds2_list.append(ds2)
-    ds1 = xr.concat(ds1_list, dim='time')
-    ds2 = xr.concat(ds2_list, dim='time')
-
+    # OPEN DATA
+    ds1= read_dataset(
+            dataset='himawari',
+            resolution='daily',
+            date=year_month
+        )
+    ds2= read_dataset(
+            dataset='barra-r2',
+            resolution='daily',
+            date=year_month
+        )
+    LOG.info('datasets opened')
+    
+    # Adjsust times so they match
     ds1 = ds1.assign_coords(time=ds1.time + np.timedelta64(1, "D"))
     ds1 = ds1.assign_coords(time=ds1.time.dt.floor("D"))
     ds2 = ds2.assign_coords(time=ds2.time.dt.floor("D"))
+    LOG.info('dates aligned')
 
+    # regrid fine resolution to coarse resolution so datasets match
     regridder_file = '/g/data/er8/users/cd3022/regridder_weights/himawari_to_barrar2_weights.nc'
     regridder =  xe.Regridder(ds1, ds2, "bilinear",
-                        filename=regridder_file,
-                        reuse_weights=True)
+                         filename=regridder_file,
+                         reuse_weights=True)
     ds1 = regridder(ds1)
-    rmse = rmse_workflow(ds1, ds2)
+    LOG.info('lat/lon regridded')
 
     file_path = Path(f'/g/data/er8/users/cd3022/Irradiance-comparisons/error_timeseries/')
     os.makedirs(file_path, exist_ok=True)
-    rmse.to_netcdf(f'{file_path}/himawari-barrar2_{year}.nc')
+    for day in range(1,32):
+        
+        date = f'{year_month}-{day:02d}'
+        ds1_day = ds1.sel(time=date)
+        ds2_day = ds2.sel(time=date)
+        if len(ds1_day) == 0:
+            break
+        rmse = client.submit(rmse_workflow(date))
+        LOG.info('rmse calculated')
+
+
+
+    rmse.to_netcdf(f'{file_path}/himawari-barrar2_{date}.nc')
+    LOG.info(f'{date} data saved')

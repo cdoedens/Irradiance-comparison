@@ -1,6 +1,6 @@
 #!/bin/bash 
 #PBS -l walltime=1:00:00 
-#PBS -l mem=50GB 
+#PBS -l mem=96GB 
 #PBS -l ncpus=24 
 #PBS -l jobfs=10GB 
 #PBS -l storage=gdata/xp65+gdata/er8+gdata/ob53+gdata/rt52+gdata/rv74 
@@ -14,4 +14,4 @@ cd /home/548/cd3022/repos/Irradiance-comparisons
 
 source ./env.sh
 
-python3 scripts/timeseries_rmse.py
+python3 scripts/timeseries_rmse.py 2024
