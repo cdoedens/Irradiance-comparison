@@ -77,7 +77,7 @@ def read_himawari(resolution, date):
         'longitude': 'lon',
         f'{resolution}_integral_of_surface_global_irradiance': 'ghi'
         }
-    ds = xr.open_mfdataset(files).rename(
+    ds = xr.open_mfdataset(files, chunks='auto', parallel=True).rename(
         renaming_dir
     )
     # convert units from MJ to W
@@ -103,7 +103,7 @@ def read_era5(resolution, date):
         'msdwswrf': 'ghi'
     }
 
-    return xr.open_mfdataset(file).rename(
+    return xr.open_mfdataset(file, chunks='auto', parallel=True).rename(
         renaming_dir
         ).sel(
             lat=slice(-10, -44.5), lon=slice(112, 156.26)
@@ -125,7 +125,7 @@ def read_barra_r2(resolution, date):
         'rsds': 'ghi'
     }
 
-    return xr.open_mfdataset(file).rename(
+    return xr.open_mfdataset(file, chunks='auto', parallel=True).rename(
         renaming_dir
     ).sel(
         lat=slice(-44.5, -10,), lon = slice(112, 156.26)
@@ -147,7 +147,7 @@ def read_barra_c2(resolution, date):
         'rsds': 'ghi'
     }
 
-    return xr.open_mfdataset(file).rename(
+    return xr.open_mfdataset(file, chunks='auto', parallel=True).rename(
         renaming_dir
     ).sel(
         lat=slice(-44.5, -10,), lon = slice(112, 156.26)
@@ -159,7 +159,7 @@ def read_ceres(resolution, date):
     renaming_dir = {
         'sfc_sw_down_all_mon': 'ghi'
     }
-    return xr.open_dataset(CERES).rename(
+    return xr.open_dataset(CERES, chunks='auto', parallel=True).rename(
         renaming_dir
     ).sel(
         lat=slice(-44.5, -10), lon=slice(112, 156.26), time=date

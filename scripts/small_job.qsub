@@ -3,7 +3,7 @@
 #PBS -l mem=96GB 
 #PBS -l ncpus=24 
 #PBS -l jobfs=10GB 
-#PBS -l storage=gdata/xp65+gdata/er8+gdata/ob53+gdata/rt52+gdata/rv74 
+#PBS -l storage=gdata/xp65+gdata/er8+gdata/ob53+gdata/rt52+gdata/rv74+gdata/su28
 #PBS -l other=hyperthread 
 #PBS -q normal 
 #PBS -P er8 
@@ -14,4 +14,4 @@ cd /home/548/cd3022/repos/Irradiance-comparisons
 
 source ./env.sh
 
-python3 scripts/timeseries_rmse.py 2024
+python3 scripts/make_regridders.py

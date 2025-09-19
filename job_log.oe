@@ -1,151 +1,15 @@
 Loading conda/analysis3-25.08
   Loading requirement: singularity
-2025-09-10 14:47:48,368:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/xarray/computation/apply_ufunc.py:445: PerformanceWarning: Regridding is increasing the number of chunks by a factor of 16.0, you might want to specify sizes in `output_chunks` in the regridder call. Default behaviour is to preserve the chunk sizes from the input (20, 2214).
-  result_vars[name] = func(*variable_args)
-
-2025-09-10 14:47:48,368:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/xarray/computation/apply_ufunc.py:445: PerformanceWarning: Regridding is increasing the number of chunks by a factor of 16.0, you might want to specify sizes in `output_chunks` in the regridder call. Default behaviour is to preserve the chunk sizes from the input (20, 2214).
-  result_vars[name] = func(*variable_args)
-
-WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/xarray/computation/apply_ufunc.py:445: PerformanceWarning: Regridding is increasing the number of chunks by a factor of 16.0, you might want to specify sizes in `output_chunks` in the regridder call. Default behaviour is to preserve the chunk sizes from the input (20, 2214).
-  result_vars[name] = func(*variable_args)
-
-2025-09-10 14:47:50,683:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/routines.py:333: PerformanceWarning: Increasing number of chunks by factor of 16
-  intermediate = blockwise(
-
-2025-09-10 14:47:50,683:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/routines.py:333: PerformanceWarning: Increasing number of chunks by factor of 16
-  intermediate = blockwise(
-
-WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/routines.py:333: PerformanceWarning: Increasing number of chunks by factor of 16
-  intermediate = blockwise(
-
-2025-09-10 14:47:56,992:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/xarray/computation/apply_ufunc.py:445: PerformanceWarning: Regridding is increasing the number of chunks by a factor of 16.0, you might want to specify sizes in `output_chunks` in the regridder call. Default behaviour is to preserve the chunk sizes from the input (20, 2214).
-  result_vars[name] = func(*variable_args)
-
-2025-09-10 14:47:56,992:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/xarray/computation/apply_ufunc.py:445: PerformanceWarning: Regridding is increasing the number of chunks by a factor of 16.0, you might want to specify sizes in `output_chunks` in the regridder call. Default behaviour is to preserve the chunk sizes from the input (20, 2214).
-  result_vars[name] = func(*variable_args)
-
-WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/xarray/computation/apply_ufunc.py:445: PerformanceWarning: Regridding is increasing the number of chunks by a factor of 16.0, you might want to specify sizes in `output_chunks` in the regridder call. Default behaviour is to preserve the chunk sizes from the input (20, 2214).
-  result_vars[name] = func(*variable_args)
-
-2025-09-10 14:47:56,996:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/routines.py:333: PerformanceWarning: Increasing number of chunks by factor of 16
-  intermediate = blockwise(
-
-2025-09-10 14:47:56,996:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/routines.py:333: PerformanceWarning: Increasing number of chunks by factor of 16
-  intermediate = blockwise(
-
-WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/routines.py:333: PerformanceWarning: Increasing number of chunks by factor of 16
-  intermediate = blockwise(
-
-2025-09-10 14:48:02,365:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/xarray/computation/apply_ufunc.py:445: PerformanceWarning: Regridding is increasing the number of chunks by a factor of 16.0, you might want to specify sizes in `output_chunks` in the regridder call. Default behaviour is to preserve the chunk sizes from the input (20, 2214).
-  result_vars[name] = func(*variable_args)
-
-2025-09-10 14:48:02,365:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/xarray/computation/apply_ufunc.py:445: PerformanceWarning: Regridding is increasing the number of chunks by a factor of 16.0, you might want to specify sizes in `output_chunks` in the regridder call. Default behaviour is to preserve the chunk sizes from the input (20, 2214).
-  result_vars[name] = func(*variable_args)
-
-WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/xarray/computation/apply_ufunc.py:445: PerformanceWarning: Regridding is increasing the number of chunks by a factor of 16.0, you might want to specify sizes in `output_chunks` in the regridder call. Default behaviour is to preserve the chunk sizes from the input (20, 2214).
-  result_vars[name] = func(*variable_args)
-
-2025-09-10 14:48:02,369:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/routines.py:333: PerformanceWarning: Increasing number of chunks by factor of 16
-  intermediate = blockwise(
-
-2025-09-10 14:48:02,369:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/routines.py:333: PerformanceWarning: Increasing number of chunks by factor of 16
-  intermediate = blockwise(
-
-WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/routines.py:333: PerformanceWarning: Increasing number of chunks by factor of 16
-  intermediate = blockwise(
-
-2025-09-10 14:48:08,420:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/xarray/computation/apply_ufunc.py:445: PerformanceWarning: Regridding is increasing the number of chunks by a factor of 16.0, you might want to specify sizes in `output_chunks` in the regridder call. Default behaviour is to preserve the chunk sizes from the input (20, 2214).
-  result_vars[name] = func(*variable_args)
-
-2025-09-10 14:48:08,420:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/xarray/computation/apply_ufunc.py:445: PerformanceWarning: Regridding is increasing the number of chunks by a factor of 16.0, you might want to specify sizes in `output_chunks` in the regridder call. Default behaviour is to preserve the chunk sizes from the input (20, 2214).
-  result_vars[name] = func(*variable_args)
-
-WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/xarray/computation/apply_ufunc.py:445: PerformanceWarning: Regridding is increasing the number of chunks by a factor of 16.0, you might want to specify sizes in `output_chunks` in the regridder call. Default behaviour is to preserve the chunk sizes from the input (20, 2214).
-  result_vars[name] = func(*variable_args)
-
-2025-09-10 14:48:08,423:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/routines.py:333: PerformanceWarning: Increasing number of chunks by factor of 16
-  intermediate = blockwise(
-
-2025-09-10 14:48:08,423:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/routines.py:333: PerformanceWarning: Increasing number of chunks by factor of 16
-  intermediate = blockwise(
-
-WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/routines.py:333: PerformanceWarning: Increasing number of chunks by factor of 16
-  intermediate = blockwise(
-
-2025-09-10 14:48:13,736:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/xarray/computation/apply_ufunc.py:445: PerformanceWarning: Regridding is increasing the number of chunks by a factor of 16.0, you might want to specify sizes in `output_chunks` in the regridder call. Default behaviour is to preserve the chunk sizes from the input (20, 2214).
-  result_vars[name] = func(*variable_args)
-
-2025-09-10 14:48:13,736:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/xarray/computation/apply_ufunc.py:445: PerformanceWarning: Regridding is increasing the number of chunks by a factor of 16.0, you might want to specify sizes in `output_chunks` in the regridder call. Default behaviour is to preserve the chunk sizes from the input (20, 2214).
-  result_vars[name] = func(*variable_args)
-
-WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/xarray/computation/apply_ufunc.py:445: PerformanceWarning: Regridding is increasing the number of chunks by a factor of 16.0, you might want to specify sizes in `output_chunks` in the regridder call. Default behaviour is to preserve the chunk sizes from the input (20, 2214).
-  result_vars[name] = func(*variable_args)
-
-2025-09-10 14:48:13,739:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/routines.py:333: PerformanceWarning: Increasing number of chunks by factor of 16
-  intermediate = blockwise(
-
-2025-09-10 14:48:13,739:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/routines.py:333: PerformanceWarning: Increasing number of chunks by factor of 16
-  intermediate = blockwise(
-
-WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/routines.py:333: PerformanceWarning: Increasing number of chunks by factor of 16
-  intermediate = blockwise(
-
-2025-09-10 14:48:19,261:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/xarray/computation/apply_ufunc.py:445: PerformanceWarning: Regridding is increasing the number of chunks by a factor of 16.0, you might want to specify sizes in `output_chunks` in the regridder call. Default behaviour is to preserve the chunk sizes from the input (20, 2214).
-  result_vars[name] = func(*variable_args)
-
-2025-09-10 14:48:19,261:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/xarray/computation/apply_ufunc.py:445: PerformanceWarning: Regridding is increasing the number of chunks by a factor of 16.0, you might want to specify sizes in `output_chunks` in the regridder call. Default behaviour is to preserve the chunk sizes from the input (20, 2214).
-  result_vars[name] = func(*variable_args)
-
-WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/xarray/computation/apply_ufunc.py:445: PerformanceWarning: Regridding is increasing the number of chunks by a factor of 16.0, you might want to specify sizes in `output_chunks` in the regridder call. Default behaviour is to preserve the chunk sizes from the input (20, 2214).
-  result_vars[name] = func(*variable_args)
-
-2025-09-10 14:48:19,265:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/routines.py:333: PerformanceWarning: Increasing number of chunks by factor of 16
-  intermediate = blockwise(
-
-2025-09-10 14:48:19,265:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/routines.py:333: PerformanceWarning: Increasing number of chunks by factor of 16
-  intermediate = blockwise(
-
-WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/routines.py:333: PerformanceWarning: Increasing number of chunks by factor of 16
-  intermediate = blockwise(
-
-2025-09-10 14:48:25,435:__main__:INFO: diff calculated
-INFO:__main__:diff calculated
-2025-09-10 14:48:25,435:__main__:INFO: start calc rmse
-INFO:__main__:start calc rmse
-2025-09-10 14:48:25,556:__main__:INFO: rmse calculated
-INFO:__main__:rmse calculated
-2025-09-10 14:48:27,076:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/distributed/client.py:3363: UserWarning: Sending large graph of size 52.93 MiB.
-This may cause some slowdown.
-Consider loading the data with Dask directly
- or using futures or delayed objects to embed the data into the graph without repetition.
-See also https://docs.dask.org/en/stable/best-practices.html#load-data-with-dask for more information.
-  warnings.warn(
-
-2025-09-10 14:48:27,076:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/distributed/client.py:3363: UserWarning: Sending large graph of size 52.93 MiB.
-This may cause some slowdown.
-Consider loading the data with Dask directly
- or using futures or delayed objects to embed the data into the graph without repetition.
-See also https://docs.dask.org/en/stable/best-practices.html#load-data-with-dask for more information.
-  warnings.warn(
-
-WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/distributed/client.py:3363: UserWarning: Sending large graph of size 52.93 MiB.
-This may cause some slowdown.
-Consider loading the data with Dask directly
- or using futures or delayed objects to embed the data into the graph without repetition.
-See also https://docs.dask.org/en/stable/best-practices.html#load-data-with-dask for more information.
-  warnings.warn(
-
-2025-09-10 15:02:52,962 - distributed.process - WARNING - [<AsyncProcess Dask Worker process (from Nanny)>] process 2146856 exit status was already read will report exitcode 255
 
 ======================================================================================
-                  Resource Usage on 2025-09-10 15:03:04:
-   Job Id:             149309388.gadi-pbs
+                  Resource Usage on 2025-09-11 12:45:03:
+   Job Id:             149412633.gadi-pbs
    Project:            er8
    Exit Status:        0
-   Service Units:      13.13
+   Service Units:      0.99
    NCPUs Requested:    24                     NCPUs Used: 24              
-                                           CPU Time Used: 02:29:44        
-   Memory Requested:   96.0GB                Memory Used: 16.15GB         
-   Walltime requested: 01:00:00            Walltime Used: 00:16:25        
+                                           CPU Time Used: 00:01:05        
+   Memory Requested:   96.0GB                Memory Used: 5.23GB          
+   Walltime requested: 01:00:00            Walltime Used: 00:01:14        
    JobFS requested:    10.0GB                 JobFS used: 37.0B           
 ======================================================================================
