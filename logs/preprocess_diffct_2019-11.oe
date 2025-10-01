@@ -1,0 +1,55 @@
+Loading conda/analysis3-25.08
+  Loading requirement: singularity
+2025-09-24 14:20:08,624:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/core.py:4998: PerformanceWarning: Increasing number of chunks by factor of 51
+  result = blockwise(
+
+2025-09-24 14:20:08,624:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/core.py:4998: PerformanceWarning: Increasing number of chunks by factor of 51
+  result = blockwise(
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/core.py:4998: PerformanceWarning: Increasing number of chunks by factor of 51
+  result = blockwise(
+
+2025-09-24 14:20:18,801:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/core.py:4998: PerformanceWarning: Increasing number of chunks by factor of 14
+  result = blockwise(
+
+2025-09-24 14:20:18,801:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/core.py:4998: PerformanceWarning: Increasing number of chunks by factor of 14
+  result = blockwise(
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/core.py:4998: PerformanceWarning: Increasing number of chunks by factor of 14
+  result = blockwise(
+
+2025-09-24 14:20:41,633:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/distributed/client.py:3363: UserWarning: Sending large graph of size 258.63 MiB.
+This may cause some slowdown.
+Consider loading the data with Dask directly
+ or using futures or delayed objects to embed the data into the graph without repetition.
+See also https://docs.dask.org/en/stable/best-practices.html#load-data-with-dask for more information.
+  warnings.warn(
+
+2025-09-24 14:20:41,633:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/distributed/client.py:3363: UserWarning: Sending large graph of size 258.63 MiB.
+This may cause some slowdown.
+Consider loading the data with Dask directly
+ or using futures or delayed objects to embed the data into the graph without repetition.
+See also https://docs.dask.org/en/stable/best-practices.html#load-data-with-dask for more information.
+  warnings.warn(
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/distributed/client.py:3363: UserWarning: Sending large graph of size 258.63 MiB.
+This may cause some slowdown.
+Consider loading the data with Dask directly
+ or using futures or delayed objects to embed the data into the graph without repetition.
+See also https://docs.dask.org/en/stable/best-practices.html#load-data-with-dask for more information.
+  warnings.warn(
+
+Dask dashboard: http://127.0.0.1:8787/status
+
+======================================================================================
+                  Resource Usage on 2025-09-24 14:22:52:
+   Job Id:             150681912.gadi-pbs
+   Project:            er8
+   Exit Status:        0
+   Service Units:      4.36
+   NCPUs Requested:    24                     NCPUs Used: 24              
+                                           CPU Time Used: 00:19:08        
+   Memory Requested:   96.0GB                Memory Used: 34.81GB         
+   Walltime requested: 01:00:00            Walltime Used: 00:05:27        
+   JobFS requested:    10.0GB                 JobFS used: 37.0B           
+======================================================================================

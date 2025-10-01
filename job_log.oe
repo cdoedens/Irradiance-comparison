@@ -1,23 +1,55 @@
 Loading conda/analysis3-25.08
   Loading requirement: singularity
-Traceback (most recent call last):
-  File "/home/548/cd3022/repos/Irradiance-comparisons/scripts/preprocess_diffct.py", line 20, in <module>
-    client = setup_dask_client(workload_type="io")
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/dask_setup.py", line 25, in setup_dask_client
-    logical_cores = psutil.cpu_count(logical=True)
-                    ^^^^^^
-NameError: name 'psutil' is not defined
+2025-09-24 11:52:46,661:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/core.py:4998: PerformanceWarning: Increasing number of chunks by factor of 52
+  result = blockwise(
+
+2025-09-24 11:52:46,661:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/core.py:4998: PerformanceWarning: Increasing number of chunks by factor of 52
+  result = blockwise(
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/core.py:4998: PerformanceWarning: Increasing number of chunks by factor of 52
+  result = blockwise(
+
+2025-09-24 11:52:56,670:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/core.py:4998: PerformanceWarning: Increasing number of chunks by factor of 14
+  result = blockwise(
+
+2025-09-24 11:52:56,670:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/core.py:4998: PerformanceWarning: Increasing number of chunks by factor of 14
+  result = blockwise(
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/dask/array/core.py:4998: PerformanceWarning: Increasing number of chunks by factor of 14
+  result = blockwise(
+
+2025-09-24 11:53:19,020:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/distributed/client.py:3363: UserWarning: Sending large graph of size 259.08 MiB.
+This may cause some slowdown.
+Consider loading the data with Dask directly
+ or using futures or delayed objects to embed the data into the graph without repetition.
+See also https://docs.dask.org/en/stable/best-practices.html#load-data-with-dask for more information.
+  warnings.warn(
+
+2025-09-24 11:53:19,020:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/distributed/client.py:3363: UserWarning: Sending large graph of size 259.08 MiB.
+This may cause some slowdown.
+Consider loading the data with Dask directly
+ or using futures or delayed objects to embed the data into the graph without repetition.
+See also https://docs.dask.org/en/stable/best-practices.html#load-data-with-dask for more information.
+  warnings.warn(
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/distributed/client.py:3363: UserWarning: Sending large graph of size 259.08 MiB.
+This may cause some slowdown.
+Consider loading the data with Dask directly
+ or using futures or delayed objects to embed the data into the graph without repetition.
+See also https://docs.dask.org/en/stable/best-practices.html#load-data-with-dask for more information.
+  warnings.warn(
+
+Dask dashboard: http://127.0.0.1:8787/status
 
 ======================================================================================
-                  Resource Usage on 2025-09-23 16:25:43:
-   Job Id:             150608995.gadi-pbs
+                  Resource Usage on 2025-09-24 11:55:38:
+   Job Id:             150667764.gadi-pbs
    Project:            er8
-   Exit Status:        1
-   Service Units:      0.16
+   Exit Status:        0
+   Service Units:      4.29
    NCPUs Requested:    24                     NCPUs Used: 24              
-                                           CPU Time Used: 00:00:05        
-   Memory Requested:   96.0GB                Memory Used: 861.46MB        
-   Walltime requested: 01:00:00            Walltime Used: 00:00:12        
+                                           CPU Time Used: 00:21:03        
+   Memory Requested:   96.0GB                Memory Used: 34.39GB         
+   Walltime requested: 01:00:00            Walltime Used: 00:05:22        
    JobFS requested:    10.0GB                 JobFS used: 0B              
 ======================================================================================

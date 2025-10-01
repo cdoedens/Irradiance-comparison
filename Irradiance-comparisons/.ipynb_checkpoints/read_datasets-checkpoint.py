@@ -77,7 +77,7 @@ def read_himawari(resolution, date):
         'longitude': 'lon',
         f'{resolution}_integral_of_surface_global_irradiance': 'ghi'
         }
-    ds = xr.open_mfdataset(files, chunks='auto', parallel=False).rename(
+    ds = xr.open_mfdataset(files, chunks='auto', parallel=True).rename(
         renaming_dir
     )
     # convert units from MJ to W

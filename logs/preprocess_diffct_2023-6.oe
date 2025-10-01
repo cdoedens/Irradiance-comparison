@@ -1,0 +1,59 @@
+Loading conda/analysis3-25.08
+  Loading requirement: singularity
+Dask dashboard: http://127.0.0.1:8787/status
+Traceback (most recent call last):
+  File "/home/548/cd3022/repos/Irradiance-comparisons/scripts/preprocess_diffct.py", line 83, in <module>
+    himawari = read_dataset(
+               ^^^^^^^^^^^^^
+  File "/home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py", line 55, in read_dataset
+    return reader(resolution, date)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py", line 80, in read_himawari
+    ds = xr.open_mfdataset(files, chunks='auto', parallel=False).rename(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/xarray/backends/api.py", line 1597, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+2025-09-24 14:41:03,382 - distributed.worker - ERROR - Failed to communicate with scheduler during heartbeat.
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/distributed/comm/tcp.py", line 226, in read
+    frames_nosplit_nbytes_bin = await stream.read_bytes(fmt_size)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/distributed/worker.py", line 1267, in heartbeat
+    response = await retry_operation(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/distributed/utils_comm.py", line 416, in retry_operation
+    return await retry(
+           ^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/distributed/utils_comm.py", line 395, in retry
+    return await coro()
+           ^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/distributed/core.py", line 1259, in send_recv_from_rpc
+    return await send_recv(comm=comm, op=key, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/distributed/core.py", line 1018, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.08/lib/python3.11/site-packages/distributed/comm/tcp.py", line 137, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) ConnectionPool.heartbeat_worker local=tcp://127.0.0.1:51470 remote=tcp://127.0.0.1:36841>: Stream is closed
+
+======================================================================================
+                  Resource Usage on 2025-09-24 14:41:07:
+   Job Id:             150681955.gadi-pbs
+   Project:            er8
+   Exit Status:        1
+   Service Units:      0.21
+   NCPUs Requested:    24                     NCPUs Used: 24              
+                                           CPU Time Used: 00:01:12        
+   Memory Requested:   96.0GB                Memory Used: 3.05GB          
+   Walltime requested: 01:00:00            Walltime Used: 00:00:16        
+   JobFS requested:    10.0GB                 JobFS used: 0B              
+======================================================================================

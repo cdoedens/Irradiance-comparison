@@ -3,7 +3,7 @@
 #PBS -l mem=96GB 
 #PBS -l ncpus=24 
 #PBS -l jobfs=10GB 
-#PBS -l storage=gdata/xp65+gdata/er8+gdata/ob53+gdata/rt52+gdata/rv74+gdata/su28
+#PBS -l storage=gdata/xp65+gdata/er8+gdata/ob53+gdata/rt52+gdata/rv74+gdata/su28+scratch/er8
 #PBS -l other=hyperthread 
 #PBS -q normal 
 #PBS -P er8 
