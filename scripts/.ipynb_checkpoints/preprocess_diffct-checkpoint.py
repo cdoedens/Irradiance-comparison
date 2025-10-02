@@ -1,10 +1,11 @@
 #!/g/data/xp65/public/apps/med_conda_scripts/analysis3-25.07.d/bin/python3
+# qsub -I -q normal -P er8 -l walltime=2:00:00,ncpus=24,mem=120GB,jobfs=100MB,storage=gdata/xp65+gdata/er8+gdata/ob53+gdata/rt52+gdata/rv74+gdata/su28
+
 import xarray as xr
 import numpy as np
 import matplotlib.pyplot as plt
 from pathlib import Path
 from datetime import datetime
-import xesmf as xe
 
 from dask.distributed import Client, wait
 import os, sys
@@ -15,134 +16,115 @@ import logger
 from read_datasets import read_dataset
 
 LOG = logger.get_logger(__name__)
-# qsub -I -q normal -P er8 -l walltime=2:00:00,ncpus=24,mem=120GB,jobfs=100MB,storage=gdata/xp65+gdata/er8+gdata/ob53+gdata/rt52+gdata/rv74+gdata/su28
-
-def setup_dask_client(
-    workload_type="io",        # "cpu", "io", or "mixed"
-    max_workers=None,           # Limit max workers (default = all cores)
-    reserve_mem_gb=50,          # Memory reserved for system and overhead
-    max_mem_gb=None,            # Cap usable memory if needed
-    dashboard=True
-):
-    """
-    Setup Dask client with auto-scaling for workload type.
-
-    Parameters:
-        workload_type (str): Type of workload - "cpu", "io", or "mixed"
-        max_workers (int): Max logical cores to use (default = system max)
-        reserve_mem_gb (int): System memory to reserve
-        max_mem_gb (int): Cap memory usage (defaults to system memory)
-        dashboard (bool): Whether to print the dashboard link
-
-    Returns:
-        dask.distributed.Client
-    """
-    assert workload_type in ("cpu", "io", "mixed"), "Invalid workload_type"
-
-    logical_cores = psutil.cpu_count(logical=True)
-    total_memory_gb = psutil.virtual_memory().total / 1e9
-
-    if max_workers is None:
-        max_workers = logical_cores
-
-    if max_mem_gb is None:
-        max_mem_gb = total_memory_gb
-
-    usable_mem_gb = max_mem_gb - reserve_mem_gb
-
-    # Recommended presets based on workload type
-    if workload_type == "cpu":
-        threads_per_worker = 1
-        n_workers = min(max_workers, logical_cores)
-    elif workload_type == "io":
-        threads_per_worker = 8
-        n_workers = max(1, logical_cores // threads_per_worker)
-    else:  # "mixed"
-        threads_per_worker = 4
-        n_workers = max(1, logical_cores // threads_per_worker)
-
-    memory_per_worker = usable_mem_gb // n_workers
-
-    client = Client(
-        n_workers=n_workers,
-        threads_per_worker=threads_per_worker,
-        memory_limit=f"{int(memory_per_worker)}GB"
-    )
-
-    if dashboard:
-        print(f"Dask dashboard: {client.dashboard_link}")
-
-    return client
+year = sys.argv[1]
+LOG.info(f'Running script for year: {year}')
 
 if __name__ == '__main__':
-    client = setup_dask_client(workload_type="io")
-    client
+    client = Client(
+        n_workers=48,
+        threads_per_worker=1
+    )
+    LOG.info('Started client')
 
-
-    date = '2020-05'
-    himawari = read_dataset(
-            dataset='himawari',
-            resolution='hourly',
-            date=date
-        )
-    
+    # OPEN BARRA-R2
     BARRA = Path('/g/data/ob53/BARRA2/output/reanalysis/')
     BARRA_R2 = BARRA / "AUS-11/BOM/ERA5/historical/hres/BARRA-R2/v1"
     BARRA_R2_DIR = BARRA_R2 / "1hr"
-    
-    file = BARRA_R2_DIR.glob(f'rsds/latest/*.nc')
-    
-    renaming_dir = {
-        'rsds': 'ghi'
-    }
-    
-    # time slice based on himawari
-    start = himawari.isel(time=0).time
-    end = himawari.isel(time=-1).time
-    
-    barra_r2 = xr.open_mfdataset(file, chunks='auto', parallel=False).rename(
-        renaming_dir
-    ).sel(
-        lat=slice(-44.5, -10),
-        lon=slice(112, 156.26),
-        time=slice(start, end)
+    var = 'rsds'
+    files = sorted([f for f in BARRA_R2_DIR.glob(f'{var}/latest/*1hr_20*.nc')])
+    def _preprocess(ds):
+        return ds.sel(lat=slice(-44.5, -10), lon=slice(112, 156.26))
+    barra_r2 = xr.open_mfdataset(
+        files,
+        chunks={'time':24, 'lat':256, 'lon':256},
+        concat_dim='time',
+        combine='nested',
+        data_vars='minimal',
+        coords='minimal',
+        compat='override',
+        parallel=True,
+        preprocess=_preprocess
     )
-    
-    regridder =  xe.Regridder(himawari, barra_r2, "bilinear", reuse_weights=False)
-    himawari = regridder(himawari)
-    diff = himawari.ghi - barra_r2.ghi
+    LOG.info('BARRA-R2 opened')
+
+    # OPEN HIMAWARI CT
     ds_ct = xr.open_zarr("/g/data/su28/himawari-ahi/cloud/ct/aus_regional_domain/S_NWC_CT_HIMA08_HIMA-N-NR.zarr/")
-    
     lat=slice(-10, -44.5)
     lon=slice(112, 156.26)
     ds_ct = ds_ct.sel(
         lat=lat,
         lon=lon,
     )
-    ds_ct = ds_ct.sel(
+    LOG.info('Himawari CT opened')
+    
+    # OPEN HIMAWARI GHI
+    himawari_list = []
+    for month in range (1, 13):
+        date = f'{year}-{month:02d}' 
+        himawari = read_dataset(
+                dataset='himawari',
+                resolution='hourly',
+                date=date
+            )
+        himawari_list.append(himawari)
+    him_ds = xr.concat(himawari_list, dim='time', data_vars='minimal')
+    LOG.info('Himawari GHI opened')
+
+    # PROCESS DATA
+    start = him_ds.isel(time=0).time
+    end = him_ds.isel(time=-1).time
+    barra_date = barra_r2.sel(
+        time=slice(start, end)
+    )
+    LOG.info('BARR-R2 time slice')
+    
+    him_ds = him_ds.interp(
+        lat=barra_date.lat,
+        lon=barra_date.lon,
+        method='linear'
+    )
+    LOG.info('Himawari GHI regridded to BARRA-R2')
+    diff = him_ds.ghi - barra_date.rsds
+
+    ds_ct_date = ds_ct.sel(
         time=diff.time,
         method='nearest'
     )
+    ds_ct_date = ds_ct_date.interp(
+        lat=diff.lat,
+        lon=diff.lon,
+        method='nearest'
+    )
+    LOG.info('Himawari CT regridded to diff')
     
-    regridder_ct = xe.Regridder(ds_ct, diff, method='bilinear')
-    ds_ct = regridder_ct(ds_ct)
+    if diff["time"].to_index().duplicated().any():
+        diff = diff.sel(time=~diff.get_index("time").duplicated())
     
+    if ds_ct_date["time"].to_index().duplicated().any():
+        ds_ct_date = ds_ct_date.sel(time=~ds_ct_date.get_index("time").duplicated())
+
+    # CONSTRUCT DATASET TO BE SAVED
     final_ds = xr.Dataset(
         {
             "ghi_diff": diff,
-            "ct": ds_ct.ct
+            "ct": ds_ct_date.ct
         }
     )
+    LOG.info('Final DS constructed')
     
     # Remove any pre-existing chunk encodings
-    for v in final_ds.variables:
+    for v in final_ds:
         if "chunks" in final_ds[v].encoding:
             del final_ds[v].encoding["chunks"]
     
-    final_ds = final_ds.chunk({"time": 24, "lat": 128, "lon": 128})
+    final_ds = final_ds.chunk({"time": 24, "lat": 157, "lon": 31})
+    LOG.info('Final DS chunked')
+    # ensure all variables match these chunks
+    
     
     file_path = Path("/scratch/er8/cd3022/Irradiance-comparisons/")
     os.makedirs(file_path, exist_ok=True)
-    file_name = f'himawari_barrar2_diffct_{date}'
-    # final_ds.to_netcdf(f'{file_path}/{file_name}.nc')
-    final_ds.to_zarr(f"{file_path}/{file_name}.zarr", mode="w")
+    file_name = f'himawari_barrar2_diffct_{year}'
+    LOG.info('Saving DS as zarr')
+    final_ds.to_zarr(f"{file_path}/{file_name}.zarr", mode="w", consolidated=True, zarr_format=2)
+    LOG.info('DONE')

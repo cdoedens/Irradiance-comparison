@@ -7,11 +7,11 @@
 #PBS -l other=hyperthread 
 #PBS -q normal 
 #PBS -P er8 
-#PBS -o /home/548/cd3022/repos/Irradiance-comparisons/job_log.oe 
+#PBS -o /home/548/cd3022/repos/Irradiance-comparisons/logs/job_log.oe 
 #PBS -j oe 
 
 cd /home/548/cd3022/repos/Irradiance-comparisons
 
 source ./env.sh
 
-python3 scripts/preprocess_diffct.py
+python3 scripts/preprocess_diffct.py 2024
