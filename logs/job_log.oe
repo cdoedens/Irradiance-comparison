@@ -2,27 +2,14 @@ Loading conda/analysis3-25.09
   Loading requirement: singularity
 
 ======================================================================================
-                  Resource Usage on 2025-10-23 10:48:19:
-   Job Id:             153174811.gadi-pbs
+                  Resource Usage on 2025-10-25 22:05:52:
+   Job Id:             153362829.gadi-pbs
    Project:            er8
    Exit Status:        0
-   Service Units:      0.27
+   Service Units:      1.00
    NCPUs Requested:    24                     NCPUs Used: 24              
-                                           CPU Time Used: 00:00:11        
-   Memory Requested:   96.0GB                Memory Used: 1.59GB          
-   Walltime requested: 01:00:00            Walltime Used: 00:00:20        
-   JobFS requested:    10.0GB                 JobFS used: 0B              
-======================================================================================
-
-======================================================================================
-                  Resource Usage on 2025-10-23 10:48:20:
-   Job Id:             153174798.gadi-pbs
-   Project:            er8
-   Exit Status:        0
-   Service Units:      0.39
-   NCPUs Requested:    24                     NCPUs Used: 24              
-                                           CPU Time Used: 00:00:22        
-   Memory Requested:   96.0GB                Memory Used: 2.33GB          
-   Walltime requested: 01:00:00            Walltime Used: 00:00:29        
+                                           CPU Time Used: 00:01:09        
+   Memory Requested:   96.0GB                Memory Used: 6.2GB           
+   Walltime requested: 01:00:00            Walltime Used: 00:01:15        
    JobFS requested:    10.0GB                 JobFS used: 0B              
 ======================================================================================
