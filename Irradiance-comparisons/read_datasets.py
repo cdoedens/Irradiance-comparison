@@ -37,8 +37,8 @@ def read_dataset(dataset, resolution, date):
     dataset = dataset.lower()
     resolution = resolution.lower()
 
-    if resolution not in ('hourly', 'daily', 'monthly'):
-        raise ValueError(f'Invalid resolution! Resolution must be: "hourly", "daily", or "monthly"')
+    if resolution not in ('instant', 'hourly', 'daily', 'monthly'):
+        raise ValueError(f'Invalid resolution! Resolution must be: "instant", "hourly", "daily", or "monthly"')
     
     DATASET_READER = {
         'himawari': read_himawari,
@@ -59,6 +59,8 @@ def read_himawari(resolution, date):
         HIMAWARI_DIR = HIMAWARI / 'p1h'
     elif resolution == 'daily':
         HIMAWARI_DIR = HIMAWARI / 'p1d'
+    elif resolution == 'instant':
+        HIMAWARI_DIR = HIMAWARI / 'p1s'
 
     from datetime import datetime
     date_dt = datetime.strptime(date, '%Y-%m')
@@ -72,19 +74,27 @@ def read_himawari(resolution, date):
     directory = HIMAWARI_DIR / version / year/ month
     files = [f for f in directory.rglob('*.nc')]
 
-    renaming_dir = {
-        'latitude': 'lat',
-        'longitude': 'lon',
-        f'{resolution}_integral_of_surface_global_irradiance': 'ghi'
-        }
-    ds = xr.open_mfdataset(files, chunks='auto', parallel=True).rename(
+    if resolution != 'instant':
+        renaming_dir = {
+            'latitude': 'lat',
+            'longitude': 'lon',
+            f'{resolution}_integral_of_surface_global_irradiance': 'ghi'
+            }
+            # convert units from MJ to W
+        ds['ghi'] = ds['ghi'] * (1e6 / 3600)
+        if resolution == 'daily':
+            ds['ghi'] = ds['ghi'] / 24
+        ds['ghi'].attrs['units'] = 'W m-2'
+    else:
+        renaming_dir = {
+            'latitude': 'lat',
+            'longitude': 'lon',
+            'surface_global_irradiance': 'ghi'
+            }
+    
+    ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf').rename(
         renaming_dir
     )
-    # convert units from MJ to W
-    ds['ghi'] = ds['ghi'] * (1e6 / 3600)
-    if resolution == 'daily':
-        ds['ghi'] = ds['ghi'] / 24
-    ds['ghi'].attrs['units'] = 'W m-2'
     return ds
 
 def read_era5(resolution, date):

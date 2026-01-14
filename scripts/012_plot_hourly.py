@@ -7,15 +7,17 @@ import sys
 
 # qsub -I -q normal -P er8 -l walltime=1:00:00,ncpus=24,mem=120GB,jobfs=100MB,storage=gdata/xp65+gdata/er8+gdata/ob53+gdata/rt52+gdata/rv74
 
-dataset_1 = sys.argv[1]
-dataset_2 = sys.argv[2]
+# dataset_1 = sys.argv[1]
+dataset_1 = 'himawari'
+# dataset_2 = sys.argv[2]
+dataset_2 = 'barra-r2'
 
 # Load datasets
 file_path_1 = Path(f'/g/data/er8/users/cd3022/Irradiance-comparisons/{dataset_1}_ghi_means')
-ds1 = xr.open_dataset(f'{file_path_1}/hourly_{dataset_1}.nc')
+ds1 = xr.open_dataset(f'{file_path_1}/hourly_{dataset_1}.nc', engine='h5netcdf')
 
 file_path_2 = Path(f'/g/data/er8/users/cd3022/Irradiance-comparisons/{dataset_2}_ghi_means')
-ds2 = xr.open_dataset(f'{file_path_2}/hourly_{dataset_2}.nc')
+ds2 = xr.open_dataset(f'{file_path_2}/hourly_{dataset_2}.nc', engine='h5netcdf')
 
 # Prepare data
 
@@ -24,7 +26,7 @@ if ds1.ghi.shape[0] > ds2.ghi.shape[0]:
     ds1 = ds1.interp(
         lat=ds2.lat,
         lon=ds2.lon,
-        method='nearest' # 'linear', 'nearest', 'cubic'
+        method='linear'
     )
 else:
     ds2 = ds2.interp(
@@ -32,15 +34,19 @@ else:
         lon=ds1.lon,
         method='linear'
     )
+
+
+ds1 = xr.where(ds1 == 0, np.nan, ds1)
+
 diff = ds2 - ds1
 
 
 # PLOT
 
-fig, ax = plt.subplots(ncols=6, nrows=4, figsize=(16,10), subplot_kw={'projection': ccrs.PlateCarree()})
+fig, ax = plt.subplots(ncols=5, nrows=3, figsize=(16,10), subplot_kw={'projection': ccrs.PlateCarree()})
 ax = ax.flatten()
 
-for i, hour in enumerate(ds1.hour):
+for i, hour in enumerate([20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9]):
     diff_data = diff.sel(hour=hour)
 
 
@@ -49,7 +55,7 @@ for i, hour in enumerate(ds1.hour):
         diff_data.lat,
         diff_data.ghi,
         cmap='RdBu_r', shading='auto',
-        vmin=-200, vmax=200,
+        vmin=-100, vmax=100,
         transform=ccrs.PlateCarree()
     )
     ax[i].coastlines()
@@ -58,3 +64,4 @@ fig.suptitle(f'{dataset_2.upper()} - {dataset_1.upper()}', fontsize=18)
 cbar = fig.colorbar(mesh, ax=ax, orientation='vertical', fraction=0.02, pad=0.04)
 cbar.set_label("Surface Downward SW bias (W/m²)")
 plt.savefig(f'/home/548/cd3022/figures/Irradiance_comparisons/{dataset_2}-{dataset_1}_hourly.png')
+plt.close()

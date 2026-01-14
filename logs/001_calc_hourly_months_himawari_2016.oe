@@ -1,0 +1,16 @@
+Loading conda/analysis3-25.11
+  Loading requirement: singularity
+/g/data/xp65/public/apps/med_conda_scripts/analysis3-25.11.d/bin/python3: can't open file '/home/548/cd3022/repos/Irradiance-comparisons/scripts/001_calc_hourly_months.py': [Errno 2] No such file or directory
+
+======================================================================================
+                  Resource Usage on 2026-01-12 22:47:09:
+   Job Id:             158076233.gadi-pbs
+   Project:            er8
+   Exit Status:        2
+   Service Units:      0.11
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 00:00:01        
+   Memory Requested:   96.0GB                Memory Used: 111.98MB        
+   Walltime requested: 01:00:00            Walltime Used: 00:00:04        
+   JobFS requested:    10.0GB                 JobFS used: 0B              
+======================================================================================
