@@ -74,27 +74,30 @@ def read_himawari(resolution, date):
     directory = HIMAWARI_DIR / version / year/ month
     files = [f for f in directory.rglob('*.nc')]
 
+    ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
     if resolution != 'instant':
-        renaming_dir = {
+        ds = ds.rename(
+            {
             'latitude': 'lat',
             'longitude': 'lon',
             f'{resolution}_integral_of_surface_global_irradiance': 'ghi'
             }
-            # convert units from MJ to W
+        )
+        # convert units from MJ to W
         ds['ghi'] = ds['ghi'] * (1e6 / 3600)
         if resolution == 'daily':
             ds['ghi'] = ds['ghi'] / 24
-        ds['ghi'].attrs['units'] = 'W m-2'
+
     else:
-        renaming_dir = {
+        ds = ds.rename(
+            {
             'latitude': 'lat',
             'longitude': 'lon',
             'surface_global_irradiance': 'ghi'
             }
-    
-    ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf').rename(
-        renaming_dir
-    )
+        )
+
     return ds
 
 def read_era5(resolution, date):
