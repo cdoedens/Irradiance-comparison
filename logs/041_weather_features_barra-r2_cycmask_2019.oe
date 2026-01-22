@@ -1,0 +1,39 @@
+Loading conda/analysis3-25.11
+  Loading requirement: singularity
+2026-01-22 14:42:51,611:__main__:INFO: Starting analysis for dataset barra-r2, weather feature cycmask, year 2019
+2026-01-22 14:43:11,933:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-01-22 14:43:11,933:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-01-22 14:43:12,744:__main__:INFO: barra-r2 data opened
+INFO:__main__:barra-r2 data opened
+2026-01-22 14:43:12,977:__main__:INFO: cycmask data opened
+INFO:__main__:cycmask data opened
+2026-01-22 14:43:13,019:__main__:INFO: preprocessing complete
+INFO:__main__:preprocessing complete
+2026-01-22 14:43:13,039:__main__:INFO: mask applied
+INFO:__main__:mask applied
+2026-01-22 14:43:13,044:__main__:INFO: annual mean calculated
+INFO:__main__:annual mean calculated
+2026-01-22 14:43:27,856:__main__:INFO: data saved, job complete!
+INFO:__main__:data saved, job complete!
+
+======================================================================================
+                  Resource Usage on 2026-01-22 14:43:33:
+   Job Id:             158937424.gadi-pbs
+   Project:            er8
+   Exit Status:        0
+   Service Units:      1.28
+   NCPUs Requested:    48                  CPU Time Used: 00:06:06        
+   Memory Requested:   96.0GB                Memory Used: 17.03GB         
+   Walltime Requested: 01:00:00            Walltime Used: 00:00:48        
+   JobFS Requested:    10.0GB                 JobFS Used: 37.0B           
+======================================================================================

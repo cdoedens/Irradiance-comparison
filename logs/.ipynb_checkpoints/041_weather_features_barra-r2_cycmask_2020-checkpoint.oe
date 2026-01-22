@@ -1,0 +1,18 @@
+Loading conda/analysis3-25.11
+  Loading requirement: singularity
+  File "/home/548/cd3022/repos/Irradiance-comparisons/scripts/041_weather_features.py", line 87
+    wf_ds = wf_ds.isel(time=slice(0, -4)
+                      ^
+SyntaxError: '(' was never closed
+
+======================================================================================
+                  Resource Usage on 2026-01-22 11:59:51:
+   Job Id:             158921826.gadi-pbs
+   Project:            er8
+   Exit Status:        1
+   Service Units:      0.08
+   NCPUs Requested:    48                  CPU Time Used: 00:00:01        
+   Memory Requested:   96.0GB                Memory Used: 110.9MB         
+   Walltime Requested: 01:00:00            Walltime Used: 00:00:03        
+   JobFS Requested:    10.0GB                 JobFS Used: 0B              
+======================================================================================

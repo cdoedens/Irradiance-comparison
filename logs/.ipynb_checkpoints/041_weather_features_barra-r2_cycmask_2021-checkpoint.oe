@@ -1,0 +1,32 @@
+Loading conda/analysis3-25.11
+  Loading requirement: singularity
+2026-01-22 12:09:45,781:__main__:INFO: Starting analysis for dataset barra-r2, weather feature cycmask, year 2021
+2026-01-22 12:10:08,684:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-01-22 12:10:08,684:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+Traceback (most recent call last):
+  File "/home/548/cd3022/repos/Irradiance-comparisons/scripts/041_weather_features.py", line 47, in <module>
+    ds = xr.concat(ds_list, dim=time)
+                                ^^^^
+NameError: name 'time' is not defined
+
+======================================================================================
+                  Resource Usage on 2026-01-22 12:10:16:
+   Job Id:             158922703.gadi-pbs
+   Project:            er8
+   Exit Status:        1
+   Service Units:      1.04
+   NCPUs Requested:    48                  CPU Time Used: 00:01:50        
+   Memory Requested:   96.0GB                Memory Used: 4.79GB          
+   Walltime Requested: 01:00:00            Walltime Used: 00:00:39        
+   JobFS Requested:    10.0GB                 JobFS Used: 0B              
+======================================================================================

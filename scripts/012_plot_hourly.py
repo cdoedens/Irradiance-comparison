@@ -46,7 +46,7 @@ diff = ds2 - ds1
 fig, ax = plt.subplots(ncols=5, nrows=3, figsize=(16,10), subplot_kw={'projection': ccrs.PlateCarree()})
 ax = ax.flatten()
 
-for i, hour in enumerate([20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9]):
+for i, hour in enumerate([19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9]):
     diff_data = diff.sel(hour=hour)
 
 
