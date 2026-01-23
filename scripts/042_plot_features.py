@@ -7,7 +7,7 @@ import sys
 
 # qsub -I -q normal -P er8 -l walltime=1:00:00,ncpus=24,mem=120GB,jobfs=100MB,storage=gdata/xp65+gdata/er8+gdata/ob53+gdata/rt52+gdata/rv74
 
-wf = 'cycmask'
+wf = sys.argv[1]
 
 # Load datasets
 file_path = Path(f'/g/data/er8/users/cd3022/Irradiance-comparisons/weather-features/{wf}')
@@ -41,6 +41,10 @@ file_path = Path('/scratch/er8/cd3022/weather-features/cyc-anticyc-front-cao')
 wf_files = [f for f in file_path.glob(f'ea.ans.20*{wf}.nc')]
 wf_ds = xr.open_mfdataset(wf_files, preprocess=_preprocess)
 wf_ds = wf_ds.sel(time=slice('2016', '2022'))
+
+# remove the level dimension if looking at frontal volume
+if wf == 'frovo_id':
+    wf_ds = wf_ds.isel(lev=0)
 
 wf_ds = wf_ds.interp(
     lat=bar.lat,
