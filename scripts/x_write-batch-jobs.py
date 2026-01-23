@@ -4,8 +4,8 @@ from dateutil.relativedelta import relativedelta
 
 script_to_run = '041_weather_features'
 
-dataset = 'himawari'
-wf = 'cycmask'
+dataset = 'barra-r2'
+wf = 'acycmask'
 
 
 # Generate a unique file name based on iteration
