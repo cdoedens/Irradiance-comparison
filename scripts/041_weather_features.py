@@ -19,7 +19,7 @@ from dask.distributed import Client
 if __name__ == '__main__':
 
     client = Client(
-        n_workers=24,
+        n_workers=12,
         threads_per_worker=1
     )
 
@@ -65,7 +65,7 @@ if __name__ == '__main__':
     # remove the level dimension if looking at frontal volume
     if wf == 'frovo_id':
         wf_ds = wf_ds.isel(lev=0)
-    
+
     # PREPROCESS DATASETS TO MATCH TIMES/SHAPES
     # interp wf mask from era5 to barra
     wf_ds = wf_ds.interp(
@@ -73,7 +73,7 @@ if __name__ == '__main__':
         lon=ds.lon,
         method='nearest'
     )
-    
+
     if dataset == 'himawari':
         # fill missing overnight time steps
         full_time = pd.date_range(
@@ -86,21 +86,21 @@ if __name__ == '__main__':
         # remove timesteps from the end of wf_ds to match himawari,
         # missing timesteps are overnight so will not impact final data
         wf_ds = wf_ds.isel(time=slice(0, -4))
-    
+
     # adjust hourly times on the 30min to match 3hr times (on the hour) from wf
     ds_shifted = ds.assign_coords(time=ds.time - pd.Timedelta('30min'))
     ds_times = ds_shifted.sel(time=wf_ds.time)
     LOG.info('preprocessing complete')
 
-    
+
     # APPLY MASK
     da_wf = xr.where(wf_ds[wf] != 0, ds_times.ghi, np.nan)
     LOG.info('mask applied')
-    
+
     # TIME MEAN
     da_wf_mean = da_wf.mean(dim='time')
     LOG.info('annual mean calculated')
-   
+
     # remask himawari region
     if dataset == 'himawari':
         da_wf_mean = xr.where(ds.isel(time=5).ghi.isnull(), np.nan, da_wf_mean)
