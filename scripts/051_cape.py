@@ -3,7 +3,11 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 from dask.distributed import Client
+import datetime
 import sys, os
+
+import logger
+LOG = logger.get_logger(__name__)
 
 if __name__ == '__main__':
     client = Client(
@@ -17,17 +21,21 @@ if __name__ == '__main__':
     files = [f for f in file_path.glob(f'*{year}??.nc')]
 
     ds = xr.open_mfdataset(files)
+    LOG.info('Data opened')
     ds = ds.assign_coords({'year': year})
 
     ds_hours = ds.groupby('time.hour').mean(dim='time')
     ds_seasons = ds.groupby('time.season').mean(dim='time')
+    LOG.info('Hourly and seasonal means calculated')
 
     ds_hours.attrs['history'] = datetime.date.today().strftime('%D')
     ds_hours.attrs['source_script'] = 'data produced by the script "051_cape.py"'
     ds_seasons.attrs['history'] = datetime.date.today().strftime('%D')
     ds_seasons.attrs['source_script'] = 'data produced by the script "051_cape.py"'
+    LOG.info('Metadata added')
 
     save_path = Path('/g/data/er8/users/cd3022/Irradiance-comparisons/cape')
-    os.makedirs(save_path, exit_ok=True)
+    os.makedirs(save_path, exist_ok=True)
     ds_hours.to_netcdf(f'{save_path}/hourly_barra-r2_{year}.nc')
     ds_seasons.to_netcdf(f'{save_path}/seasons_barra-r2_{year}.nc')
+    LOG.info('Files saved, job complete!')

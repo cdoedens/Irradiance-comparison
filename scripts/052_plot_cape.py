@@ -11,7 +11,17 @@ import sys
 file_path = Path('/g/data/er8/users/cd3022/Irradiance-comparisons/cape')
 files = [f for f in file_path.glob('hourly*.nc')]
 ds = xr.open_mfdataset(files, engine='h5netcdf', combine='nested', concat_dim='year')
+
+
+ds = ds.sel(
+    lat=slice(-44.5, -10),
+    lon=slice(112, 156.126)
+)
 ds = ds.mean(dim='year')
+
+ds["dCAPE"] = ds["CAPE"] - ds["CAPE"].roll(hour=1, roll_coords=False)
+
+
 
 # PLOT
 
@@ -25,14 +35,15 @@ for i, hour in enumerate([19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9]):
     mesh = ax[i].pcolormesh(
         data.lon,
         data.lat,
-        data.ghi,
-        cmap='viridis', shading='auto',
+        data.dCAPE,
+        cmap='RdBu_r', shading='auto',
+        vmin=-200, vmax=200,
         transform=ccrs.PlateCarree()
     )
     ax[i].coastlines()
     ax[i].set_title(f'{hour:02d}:00 UTC')
-fig.suptitle(f'{dataset_2.upper()} - {dataset_1.upper()}', fontsize=18)
+fig.suptitle(f'BARRA-R2 dCAPE/dt', fontsize=18)
 cbar = fig.colorbar(mesh, ax=ax, orientation='vertical', fraction=0.02, pad=0.04)
-cbar.set_label("Surface Downward SW (W/m²)")
+cbar.set_label("CAPE (J kg-1 hr-1)")
 plt.savefig(f'/home/548/cd3022/figures/Irradiance_comparisons/barra-r2_cape_hourly.png')
 plt.close()
