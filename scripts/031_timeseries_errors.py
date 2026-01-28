@@ -76,6 +76,9 @@ if __name__ == '__main__':
     ds_errors.attrs['source_script'] = 'data produced by the script "031_timeseries_errors.py"'
     LOG.info('Metadata added')
 
+    LOG.info('Loading data to memory...')
+    ds_errors.load()
+
     file_path = Path(f'/g/data/er8/users/cd3022/Irradiance-comparisons/error_timeseries/')
     os.makedirs(file_path, exist_ok=True)
     ds_errors.to_netcdf(f'{file_path}/himawari-barrar2_{year}.nc')
