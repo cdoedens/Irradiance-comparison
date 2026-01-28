@@ -2,11 +2,10 @@ import subprocess
 from datetime import datetime, timedelta
 from dateutil.relativedelta import relativedelta
 
-script_to_run = '041_weather_features'
+script_to_run = '031_timeseries_errors'
 joboutdir = '/home/548/cd3022/repos/Irradiance-comparisons/scripts/qsub_jobs/'
 args = [
-    'himawari',
-    'caoidx',
+
 ]
 
 
@@ -16,7 +15,7 @@ for a in args:
     fname += f'___{a}'
     bash += f' {a}'
 
-for year in range(2016, 2023):
+for year in range(2016, 2025):
 
     fname_year = fname + f'___{year}'
     bash_year = bash + f' {year}'
@@ -36,7 +35,7 @@ for year in range(2016, 2023):
         f3.write('#PBS -l other=hyperthread \n')
         f3.write('#PBS -q normal \n')
         f3.write('#PBS -P er8 \n')
-        f3.write(f'#PBS -o /home/548/cd3022/repos/Irradiance-comparisons/logs/{fname}.oe \n')
+        f3.write(f'#PBS -o /home/548/cd3022/repos/Irradiance-comparisons/logs/{fname_year}.oe \n')
         f3.write('#PBS -j oe \n')
         f3.write('cd /home/548/cd3022/repos/Irradiance-comparisons \n')
         f3.write('source ./env.sh \n')
