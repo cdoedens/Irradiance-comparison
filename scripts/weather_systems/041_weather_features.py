@@ -2,8 +2,6 @@ import xarray as xr
 import numpy as np
 import pandas as pd
 from pathlib import Path
-import matplotlib.pyplot as plt
-import cartopy.crs as ccrs
 import sys, os
 import datetime
 
@@ -57,9 +55,11 @@ if __name__ == '__main__':
             {'latitude':'lat',
             'longitude':'lon'}
         )
+    
+
     wf_path = Path(f'/scratch/er8/cd3022/weather-features/cyc-anticyc-front-cao/')
-    wf_files = [f for f in wf_path.glob(f'*{year}??.{lvl}.{wf}.nc')]
-    wf_ds = xr.open_mfdataset(wf_files, preprocess=preprocess)
+    wf_files = [f for f in wf_path.glob(f'*{year}??.{lvl}.nc')]
+    wf_ds = xr.open_mfdataset(wf_files) #, preprocess=preprocess)
     LOG.info(f'{wf} data opened')
 
     # remove the level dimension if looking at frontal volume

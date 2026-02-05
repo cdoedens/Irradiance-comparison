@@ -2,10 +2,10 @@ import subprocess
 from datetime import datetime, timedelta
 from dateutil.relativedelta import relativedelta
 
-script_to_run = '031_timeseries_errors'
+script_to_run = '041.5_sea_breezes'
 joboutdir = '/home/548/cd3022/repos/Irradiance-comparisons/scripts/qsub_jobs/'
 args = [
-
+    'himawari'
 ]
 
 
@@ -31,7 +31,7 @@ for year in range(2016, 2025):
         f3.write('#PBS -l mem=96GB \n')
         f3.write('#PBS -l ncpus=48 \n')
         f3.write('#PBS -l jobfs=10GB \n')
-        f3.write('#PBS -l storage=gdata/xp65+gdata/er8+gdata/ob53+gdata/rt52+gdata/rv74+gdata/su28+scratch/er8 \n')
+        f3.write('#PBS -l storage=gdata/xp65+gdata/er8+gdata/ob53+gdata/rt52+gdata/rv74+gdata/su28+scratch/er8+gdata/ng72 \n')
         f3.write('#PBS -l other=hyperthread \n')
         f3.write('#PBS -q normal \n')
         f3.write('#PBS -P er8 \n')
