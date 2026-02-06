@@ -38,7 +38,6 @@ if __name__ == '__main__':
                 date=f'{year}-{month}'
             )
         LOG.info(f'{dataset} data opened')
-        ds_list.append(ds_month)
     
 
 
@@ -76,6 +75,9 @@ if __name__ == '__main__':
             method='nearest'
         )
 
+        # adjust hourly times on the 30min to match 3hr times (on the hour) from wf
+        ds_ghi = ds_ghi.assign_coords(time=ds_ghi.time + pd.Timedelta('30min'))
+
         # Extra Himawari preprocessing steps
         if dataset == 'himawari':
             start = ds_ghi.time.min().item()
@@ -90,11 +92,16 @@ if __name__ == '__main__':
             
             # remove timesteps from the end of wf_ds to match himawari,
             # missing timesteps are overnight so will not impact final data
-            ds_wf = ds_wf.isel(time=slice(0, -14)
+            # ds_wf = ds_wf.isel(time=slice(0, -14))
 
-        # Align times
-        ds_ghi_shifted = ds_ghi.assign_coords(time=ds_ghi.time - pd.Timedelta('30min'))
-        ds_ghi_times = ds_ghi_shifted.sel(time=ds_wf.time)
+            # line up datasets
+            min_time = ds_wf.time.min()
+            max_time = ds_ghi.time.max()
+            t_range = slice(min_time, max_time)
+            ds_wf = ds_wf.sel(time=t_range)
+            ds_ghi = ds_ghi.sel(time=t_range)
+
+        ds_ghi_times = ds_ghi.sel(time=ds_wf.time)
 
         LOG.info('preprocessing complete')
 
@@ -112,7 +119,7 @@ if __name__ == '__main__':
 
         # add metadata
         masked_ghi_mean = masked_ghi_mean.to_dataset(name='monthly_mean_ghi')
-        masked_ghi_mean = masked_ghi_mean.assign_coords({'date':f'{year}-{month}')
+        masked_ghi_mean = masked_ghi_mean.assign_coords(date=f'{year}-{month}')
         masked_ghi_mean.attrs['date_generated'] = datetime.date.today().strftime('%D')
         masked_ghi_mean.attrs['source_script'] = 'data produced by the script "cj_wf_minmaxcl.py"'
 
