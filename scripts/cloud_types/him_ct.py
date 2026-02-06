@@ -31,6 +31,7 @@ if __name__ == '__main__':
     ds = xr.open_zarr("/g/data/su28/himawari-ahi/cloud/ct/aus_regional_domain/S_NWC_CT_HIMA08_HIMA-N-NR.zarr/")
 
     for month in range(1, 13):
+
         month = f'{month:02d}'
 
         ds_ghi = read_dataset(
@@ -39,8 +40,40 @@ if __name__ == '__main__':
             date=f'{year}-{month}'
         )
 
+        if month == '01':
+            ds = ds.sel(
+                lat=slice(ds_ghi.lat.max(), ds_ghi.lat.min()),
+                lon=slice(ds_ghi.lon.min(), ds_ghi.lon.max())
+            )
         him_ct = ds.ct.sel(time=f'{year}-{month}')
 
+        # ALIGN DATASETS
+        ds_ghi = ds_ghi.interp(
+            lat=him_ct.lat,
+            lon=him_ct.lon,
+            method='linear'
+        )
+        start = ds_ghi.time.min().item()
+        end = ds_ghi.time.max().item()
+        # fill missing overnight time steps
+        full_time = pd.date_range(
+            start=start,
+            end=end,
+            freq="10min"
+        )
+        ds_ghi = ds_ghi.reindex(time=full_time, fill_value=0)
+        
+        # trim ends
+        min_time = him_ct.time.min()
+        max_time = ds_ghi.time.max()
+        t_range = slice(min_time, max_time)
+        him_ct = him_ct.sel(time=t_range)
+        ds_ghi = ds_ghi.sel(time=t_range)
+
+        ds_ghi_times = ds_ghi.sel(time=him_ct.time)
+
+
+        # AGGREGATE CT FOR MASK
         cloud_aggs = {
             'clear_sky':[1,2,3,4],
             'low':[5,6],
@@ -51,7 +84,9 @@ if __name__ == '__main__':
 
         for i, ct_agg in enumerate(cloud_aggs):
             ct_codes = cloud_aggs[ct_agg]
-            ct_ghi = xr.where(him_ct.isin(ct_codes), ds_ghi.ghi, np.nan)
+            ct_ghi = xr.where(him_ct.isin(ct_codes), ds_ghi_times.ghi, np.nan)
+
+            # CT DATA
             ct_ghi_monthly_mean = ct_ghi.mean(dim='time')
 
             # add metadata
