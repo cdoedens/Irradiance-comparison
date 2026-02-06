@@ -1,0 +1,239 @@
+Loading conda/analysis3-25.11
+  Loading requirement: singularity
+2026-02-06 13:25:57,186:__main__:INFO: Starting analysis for dataset himawari, weather feature maxcl, year 2024
+2026-02-06 13:26:41,344:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 13:26:41,344:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 13:26:54,125:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 13:26:54,125:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 13:26:55,393:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 13:26:55,393:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 13:26:56,224:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 13:26:56,224:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 13:26:58,492:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 13:26:58,492:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 13:26:59,002:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 13:26:59,002:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 13:27:00,845:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 13:27:00,845:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 13:27:01,132:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 13:27:01,132:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 13:27:03,024:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 13:27:03,024:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 13:27:03,241:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 13:27:03,241:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 13:27:05,075:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 13:27:05,075:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 13:27:05,264:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 13:27:05,264:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 13:27:09,169:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 13:27:09,169:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 13:27:18,954:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 13:27:18,954:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 13:27:28,452:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 13:27:28,452:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 13:27:38,505:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 13:27:38,505:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 13:27:48,864:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 13:27:48,864:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 13:27:59,163:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 13:27:59,163:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 13:28:10,080:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 13:28:10,080:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 13:28:20,294:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 13:28:20,294:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 13:28:30,230:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 13:28:30,230:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 13:28:40,493:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 13:28:40,493:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 13:28:50,667:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 13:28:50,667:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 13:29:01,283:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 13:29:01,283:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 13:29:05,286:__main__:INFO: himawari data opened
+Traceback (most recent call last):
+  File "/home/548/cd3022/repos/Irradiance-comparisons/scripts/weather_systems/cj_wf_minmaxcl.py", line 66, in <module>
+    ds_wf = xr.open_mfdataset(wf_files) #, preprocess=preprocess)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/api.py", line 1577, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+
+======================================================================================
+                  Resource Usage on 2026-02-06 13:29:14:
+   Job Id:             159989286.gadi-pbs
+   Project:            er8
+   Exit Status:        1
+   Service Units:      5.39
+   NCPUs Requested:    48                  CPU Time Used: 00:13:15        
+   Memory Requested:   96.0GB                Memory Used: 39.28GB         
+   Walltime Requested: 01:00:00            Walltime Used: 00:03:22        
+   JobFS Requested:    10.0GB                 JobFS Used: 444.0B          
+======================================================================================

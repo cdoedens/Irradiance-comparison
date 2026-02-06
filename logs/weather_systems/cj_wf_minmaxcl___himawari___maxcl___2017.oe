@@ -1,0 +1,1316 @@
+Loading conda/analysis3-25.11
+  Loading requirement: singularity
+2026-02-06 15:02:10,423:__main__:INFO: Starting analysis for dataset himawari, weather feature maxcl, year 2017
+2026-02-06 15:02:52,566:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:02:52,566:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:02:58,822:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:02:58,822:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:03:02,742:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:03:02,742:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:03:05,961:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:03:05,961:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:03:09,198:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:03:09,198:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:03:10,772:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:03:10,772:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:03:11,219:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:03:11,219:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:03:13,194:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:03:13,194:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:03:13,921:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:03:13,921:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:03:16,449:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:03:16,449:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:03:18,672:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:03:18,672:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:03:19,580:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:03:19,580:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:03:24,106:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 15:03:24,106:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 15:03:33,931:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 15:03:33,931:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 15:03:44,500:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 15:03:44,500:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 15:03:55,107:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 15:03:55,107:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 15:04:06,602:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 15:04:06,602:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 15:04:17,153:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 15:04:17,153:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 15:04:28,461:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 15:04:28,461:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 15:04:40,420:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 15:04:40,420:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 15:04:51,146:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 15:04:51,146:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 15:05:02,000:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 15:05:02,000:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 15:05:13,194:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 15:05:13,194:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 15:05:23,175:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 15:05:23,175:py.warnings:WARNING: /home/548/cd3022/repos/Irradiance-comparisons/Irradiance-comparisons/read_datasets.py:77: FutureWarning: In a future version of xarray the default value for data_vars will change from data_vars='all' to data_vars=None. This is likely to lead to different results when multiple datasets have matching variables with overlapping values. To opt in to new defaults and get rid of these warnings now use `set_options(use_new_combine_kwarg_defaults=True) or set data_vars explicitly.
+  ds = xr.open_mfdataset(files, chunks='auto', parallel=True, engine='h5netcdf')
+
+2026-02-06 15:05:28,245:__main__:INFO: himawari data opened
+2026-02-06 15:05:46,522:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:05:46,522:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/plugins.py:109: RuntimeWarning: Engine 'kerchunk' loading failed:
+No module named 'zarr.core.array_spec'; 'zarr.core' is not a package
+  external_backend_entrypoints = backends_dict_from_pkg(entrypoints_unique)
+
+2026-02-06 15:05:58,083:__main__:INFO: preprocessing complete
+INFO:__main__:preprocessing complete
+2026-02-06 15:06:00,479:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/client.py:3370: UserWarning: Sending large graph of size 15.67 MiB.
+This may cause some slowdown.
+Consider loading the data with Dask directly
+ or using futures or delayed objects to embed the data into the graph without repetition.
+See also https://docs.dask.org/en/stable/best-practices.html#load-data-with-dask for more information.
+  warnings.warn(
+
+2026-02-06 15:06:00,479:py.warnings:WARNING: /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/client.py:3370: UserWarning: Sending large graph of size 15.67 MiB.
+This may cause some slowdown.
+Consider loading the data with Dask directly
+ or using futures or delayed objects to embed the data into the graph without repetition.
+See also https://docs.dask.org/en/stable/best-practices.html#load-data-with-dask for more information.
+  warnings.warn(
+
+WARNING:py.warnings:/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/client.py:3370: UserWarning: Sending large graph of size 15.67 MiB.
+This may cause some slowdown.
+Consider loading the data with Dask directly
+ or using futures or delayed objects to embed the data into the graph without repetition.
+See also https://docs.dask.org/en/stable/best-practices.html#load-data-with-dask for more information.
+  warnings.warn(
+
+2026-02-06 15:06:49,814 - distributed.nanny.memory - WARNING - Worker tcp://127.0.0.1:43005 (pid=301631) exceeded 95% memory budget. Restarting...
+2026-02-06 15:06:49,874 - distributed.scheduler - WARNING - Removing worker 'tcp://127.0.0.1:43005' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('where-c2b3b2a1ee953d61e36ef346f5306b3b', 8142, 0, 0), 'original-open_dataset-FLAG-f2641475fd753e2db629324cce7f851a', ('transpose-ba789f2f011db145142f3d6fbe094efc', 34, 0, 1), ('getitem-52db73be138bcd6864d70850931f67dd', 8181, 0, 0), ('interpnd-interpnd_0-transpose-getitem-99fee14027eac91dd973392729cbf6f3', 55, 0, 0)} (stimulus_id='handle-worker-cleanup-1770350809.8741438')
+2026-02-06 15:06:49,885 - distributed.nanny - WARNING - Restarting worker
+2026-02-06 15:06:50,866 - distributed.nanny.memory - WARNING - Worker tcp://127.0.0.1:46461 (pid=301661) exceeded 95% memory budget. Restarting...
+2026-02-06 15:06:50,931 - distributed.scheduler - WARNING - Removing worker 'tcp://127.0.0.1:46461' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('array-530a9d0fb7f51fa36fa68de38b27d791', 5052, 0, 0), ('interpnd-interpnd_0-transpose-getitem-99fee14027eac91dd973392729cbf6f3', 56, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8188, 0, 0), ('array-530a9d0fb7f51fa36fa68de38b27d791', 8186, 0, 0), ('getitem-7d9a71bb7869d2b85acff9e8c22ecdac', 8186, 0, 0)} (stimulus_id='handle-worker-cleanup-1770350810.9315777')
+2026-02-06 15:06:50,956 - distributed.nanny - WARNING - Restarting worker
+2026-02-06 15:06:53,417 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 4.95 GiB -- Worker memory limit: 8.00 GiB
+2026-02-06 15:06:54,160 - distributed.nanny.memory - WARNING - Worker tcp://127.0.0.1:42505 (pid=301613) exceeded 95% memory budget. Restarting...
+2026-02-06 15:06:54,209 - distributed.scheduler - WARNING - Removing worker 'tcp://127.0.0.1:42505' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('getitem-52db73be138bcd6864d70850931f67dd', 8170, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8107, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8176, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8151, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8150, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7991, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8147, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8174, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8113, 0, 0), ('interpnd-interpnd_0-transpose-getitem-99fee14027eac91dd973392729cbf6f3', 54, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8175, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8153, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8172, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8131, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8148, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8171, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8149, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8111, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8146, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8152, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8179, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8173, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8177, 0, 0)} (stimulus_id='handle-worker-cleanup-1770350814.2094293')
+2026-02-06 15:06:54,211 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:42505
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2885, in get_data_from_worker
+    response = await send_recv(
+               ^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1018, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Ephemeral Worker->Worker for gather local=tcp://127.0.0.1:44052 remote=tcp://127.0.0.1:42505>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:06:54,238 - distributed.nanny - WARNING - Restarting worker
+2026-02-06 15:06:54,512 - distributed.nanny.memory - WARNING - Worker tcp://127.0.0.1:37925 (pid=301589) exceeded 95% memory budget. Restarting...
+2026-02-06 15:06:54,572 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:37925
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2885, in get_data_from_worker
+    response = await send_recv(
+               ^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1018, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Ephemeral Worker->Worker for gather local=tcp://127.0.0.1:36110 remote=tcp://127.0.0.1:37925>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:06:54,574 - distributed.scheduler - WARNING - Removing worker 'tcp://127.0.0.1:37925' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('getitem-52db73be138bcd6864d70850931f67dd', 8141, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7945, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8110, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8178, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7964, 0, 0), ('interpnd-interpnd_0-transpose-getitem-99fee14027eac91dd973392729cbf6f3', 50, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7977, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7938, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8035, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8156, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8093, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8059, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7996, 0, 0), ('concatenate-afce15e82cf2548798618110374af657', 5259, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8184, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7997, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8117, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8083, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8073, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8157, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8044, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8018, 0, 0)} (stimulus_id='handle-worker-cleanup-1770350814.573609')
+2026-02-06 15:06:54,575 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:37925
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2885, in get_data_from_worker
+    response = await send_recv(
+               ^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1018, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Ephemeral Worker->Worker for gather local=tcp://127.0.0.1:36098 remote=tcp://127.0.0.1:37925>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:06:54,605 - distributed.nanny - WARNING - Restarting worker
+2026-02-06 15:06:55,969 - distributed.nanny.memory - WARNING - Worker tcp://127.0.0.1:41273 (pid=301643) exceeded 95% memory budget. Restarting...
+2026-02-06 15:06:56,019 - distributed.scheduler - WARNING - Removing worker 'tcp://127.0.0.1:41273' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('getitem-52db73be138bcd6864d70850931f67dd', 8017, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 5051, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7423, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7954, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7944, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7979, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 5050, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8116, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7957, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7373, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7396, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7413, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7956, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 5045, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8013, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7981, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8060, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7363, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8090, 0, 0), ('concatenate-afce15e82cf2548798618110374af657', 5116, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8072, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7978, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7231, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7985, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8109, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7961, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7984, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7390, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 5052, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7959, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8145, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7958, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7960, 0, 0), ('getitem-7d9a71bb7869d2b85acff9e8c22ecdac', 5063, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8133, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7980, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7983, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 5054, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8168, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7993, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7955, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7982, 0, 0), ('interpnd-interpnd_0-transpose-getitem-99fee14027eac91dd973392729cbf6f3', 49, 0, 0)} (stimulus_id='handle-worker-cleanup-1770350816.0187788')
+2026-02-06 15:06:56,018 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:41273
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2885, in get_data_from_worker
+    response = await send_recv(
+               ^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1018, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Ephemeral Worker->Worker for gather local=tcp://127.0.0.1:53106 remote=tcp://127.0.0.1:41273>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:06:56,020 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:41273
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2885, in get_data_from_worker
+    response = await send_recv(
+               ^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1018, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Ephemeral Worker->Worker for gather local=tcp://127.0.0.1:53142 remote=tcp://127.0.0.1:41273>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:06:56,018 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:41273
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2882, in get_data_from_worker
+    comm = await rpc.connect(worker)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1485, in connect
+    return await self._connect(addr=addr, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1429, in _connect
+    comm = await connect(
+           ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/core.py", line 377, in connect
+    handshake = await comm.read()
+                ^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed)  local=tcp://127.0.0.1:60576 remote=tcp://127.0.0.1:41273>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:06:56,017 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:41273
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2885, in get_data_from_worker
+    response = await send_recv(
+               ^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1018, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Ephemeral Worker->Worker for gather local=tcp://127.0.0.1:53150 remote=tcp://127.0.0.1:41273>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:06:56,056 - distributed.nanny - WARNING - Restarting worker
+2026-02-06 15:06:56,770 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 5.05 GiB -- Worker memory limit: 8.00 GiB
+2026-02-06 15:06:58,814 - distributed.nanny.memory - WARNING - Worker tcp://127.0.0.1:36011 (pid=301624) exceeded 95% memory budget. Restarting...
+2026-02-06 15:06:58,874 - distributed.worker - ERROR - failed during get data with tcp://127.0.0.1:39035 -> tcp://127.0.0.1:36011
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 1801, in get_data
+    response = await comm.read(deserializers=serializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed)  local=tcp://127.0.0.1:39035 remote=tcp://127.0.0.1:56650>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:06:58,874 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:36011
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2885, in get_data_from_worker
+    response = await send_recv(
+               ^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1018, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Ephemeral Worker->Worker for gather local=tcp://127.0.0.1:47022 remote=tcp://127.0.0.1:36011>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:06:58,912 - distributed.scheduler - WARNING - Removing worker 'tcp://127.0.0.1:36011' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('getitem-52db73be138bcd6864d70850931f67dd', 5049, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8182, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8092, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8080, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8064, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7248, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7989, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7747, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7361, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7227, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7339, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7770, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8065, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7374, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7362, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8076, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8139, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7806, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7357, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7800, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7794, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7298, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7172, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7323, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8078, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7779, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7358, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7195, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7965, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8077, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7359, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8000, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7247, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8075, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7219, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7209, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8074, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7319, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7297, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7360, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7354, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7753, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8024, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7418, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8081, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7182, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8136, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8037, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8049, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8161, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7278, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7266, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8047, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7940, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7203, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7356, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7246, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7293, 0, 0), ('interpnd-interpnd_0-transpose-getitem-99fee14027eac91dd973392729cbf6f3', 52, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7271, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7375, 0, 0), ('array-530a9d0fb7f51fa36fa68de38b27d791', 7217, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7948, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8155, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8021, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7377, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7355, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8079, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7971, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7349, 0, 0)} (stimulus_id='handle-worker-cleanup-1770350818.9124222')
+2026-02-06 15:06:58,929 - distributed.nanny - WARNING - Restarting worker
+2026-02-06 15:06:59,361 - distributed.nanny.memory - WARNING - Worker tcp://127.0.0.1:44495 (pid=301617) exceeded 95% memory budget. Restarting...
+2026-02-06 15:06:59,418 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:44495
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2885, in get_data_from_worker
+    response = await send_recv(
+               ^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1018, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Ephemeral Worker->Worker for gather local=tcp://127.0.0.1:56928 remote=tcp://127.0.0.1:44495>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:06:59,420 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:44495
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2885, in get_data_from_worker
+    response = await send_recv(
+               ^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1018, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Ephemeral Worker->Worker for gather local=tcp://127.0.0.1:56900 remote=tcp://127.0.0.1:44495>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:06:59,463 - distributed.scheduler - WARNING - Removing worker 'tcp://127.0.0.1:44495' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('getitem-52db73be138bcd6864d70850931f67dd', 8001, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7735, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7324, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7333, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7969, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7788, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7313, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7410, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7245, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7235, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7301, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8040, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7331, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7789, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7787, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7403, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7228, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7255, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8167, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7947, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7998, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8089, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8069, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7337, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7785, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7236, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7249, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7239, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8166, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7308, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7335, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7307, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7336, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7320, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7196, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7791, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7750, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7407, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7207, 0, 0), ('concatenate-afce15e82cf2548798618110374af657', 5447, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7402, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7702, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7334, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8048, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7306, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8045, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8020, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7936, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7174, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7395, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7792, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7408, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7731, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7238, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7201, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8140, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7409, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7183, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7790, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7406, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7241, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7937, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7793, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7404, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7310, 0, 0), ('interpnd-interpnd_0-transpose-getitem-99fee14027eac91dd973392729cbf6f3', 56, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8181, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7312, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7405, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7240, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7786, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7237, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8132, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7311, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8066, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7708, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8025, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 5048, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7987, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7309, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7332, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7221, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8183, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7419, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7234, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7749, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8118, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7330, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7302, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7292, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7376, 0, 0)} (stimulus_id='handle-worker-cleanup-1770350819.4634123')
+2026-02-06 15:06:59,475 - distributed.nanny - WARNING - Restarting worker
+2026-02-06 15:07:00,199 - distributed.worker - ERROR - failed during get data with tcp://127.0.0.1:36145 -> tcp://127.0.0.1:36011
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 1801, in get_data
+    response = await comm.read(deserializers=serializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed)  local=tcp://127.0.0.1:36145 remote=tcp://127.0.0.1:36762>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:07:02,035 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 4.92 GiB -- Worker memory limit: 8.00 GiB
+2026-02-06 15:07:02,181 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 4.88 GiB -- Worker memory limit: 8.00 GiB
+2026-02-06 15:07:04,514 - distributed.nanny.memory - WARNING - Worker tcp://127.0.0.1:38759 (pid=301637) exceeded 95% memory budget. Restarting...
+2026-02-06 15:07:04,585 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:38759
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2885, in get_data_from_worker
+    response = await send_recv(
+               ^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1018, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Ephemeral Worker->Worker for gather local=tcp://127.0.0.1:44360 remote=tcp://127.0.0.1:38759>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:07:04,587 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:38759
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2882, in get_data_from_worker
+    comm = await rpc.connect(worker)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1485, in connect
+    return await self._connect(addr=addr, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1429, in _connect
+    comm = await connect(
+           ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/core.py", line 377, in connect
+    handshake = await comm.read()
+                ^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed)  local=tcp://127.0.0.1:48000 remote=tcp://127.0.0.1:38759>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:07:04,634 - distributed.scheduler - WARNING - Removing worker 'tcp://127.0.0.1:38759' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('getitem-52db73be138bcd6864d70850931f67dd', 7264, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7411, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7973, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7389, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7226, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7192, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8154, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7277, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7261, 0, 0), ('array-530a9d0fb7f51fa36fa68de38b27d791', 7687, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8189, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7198, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8014, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7186, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7992, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7351, 0, 0), ('concatenate-afce15e82cf2548798618110374af657', 5401, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7187, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8115, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7189, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7263, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8038, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7188, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7260, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7732, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8062, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7258, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7370, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7801, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8022, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7422, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8085, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7394, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7272, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7949, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8163, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7752, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7972, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7950, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7179, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7191, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7344, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8046, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7700, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7220, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7259, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7796, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7205, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7193, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8143, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7171, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7391, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7250, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8095, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7300, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8067, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8108, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7746, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7242, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7262, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7190, 0, 0), ('interpnd-interpnd_0-transpose-getitem-99fee14027eac91dd973392729cbf6f3', 55, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7265, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8142, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7365, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7780, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7807, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7705, 0, 0)} (stimulus_id='handle-worker-cleanup-1770350824.6337159')
+2026-02-06 15:07:04,644 - distributed.nanny - WARNING - Restarting worker
+2026-02-06 15:07:04,712 - distributed.nanny.memory - WARNING - Worker tcp://127.0.0.1:41845 (pid=301585) exceeded 95% memory budget. Restarting...
+2026-02-06 15:07:04,785 - distributed.scheduler - WARNING - Removing worker 'tcp://127.0.0.1:41845' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('getitem-52db73be138bcd6864d70850931f67dd', 7910, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7748, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7907, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8088, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7781, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7720, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8144, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7346, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7273, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7184, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8012, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8096, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8010, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7903, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7728, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7875, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7684, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8087, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7764, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7962, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7946, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7784, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8011, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7698, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7711, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7845, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7683, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7414, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7729, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8019, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7975, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7173, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7828, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7768, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7225, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7925, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8137, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8121, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7763, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7204, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7827, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8159, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7305, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7799, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7318, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8061, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8043, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7364, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7393, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7908, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7717, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7723, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8120, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7921, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7995, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7769, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7317, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7200, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7906, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8191, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7345, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7901, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7891, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7762, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7909, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7269, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7872, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7986, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7329, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7340, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7968, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7727, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7369, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7178, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7699, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7224, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7253, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7280, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8169, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7933, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7842, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7766, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7388, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7929, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7754, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7913, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7767, 0, 0), ('concatenate-afce15e82cf2548798618110374af657', 5778, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7185, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7881, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7813, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7281, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8036, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7853, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7294, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7911, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7765, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7912, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7896, 0, 0), ('interpnd-interpnd_0-transpose-getitem-99fee14027eac91dd973392729cbf6f3', 53, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7795, 0, 0)} (stimulus_id='handle-worker-cleanup-1770350824.784046')
+2026-02-06 15:07:04,783 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:41845
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2885, in get_data_from_worker
+    response = await send_recv(
+               ^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1018, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Ephemeral Worker->Worker for gather local=tcp://127.0.0.1:40464 remote=tcp://127.0.0.1:41845>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:07:04,784 - distributed.worker - ERROR - failed during get data with tcp://127.0.0.1:39035 -> tcp://127.0.0.1:41845
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 226, in read
+    frames_nosplit_nbytes_bin = await stream.read_bytes(fmt_size)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 1801, in get_data
+    response = await comm.read(deserializers=serializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 137, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed)  local=tcp://127.0.0.1:39035 remote=tcp://127.0.0.1:58710>: Stream is closed
+2026-02-06 15:07:04,783 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:41845
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2882, in get_data_from_worker
+    comm = await rpc.connect(worker)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1485, in connect
+    return await self._connect(addr=addr, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1429, in _connect
+    comm = await connect(
+           ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/core.py", line 377, in connect
+    handshake = await comm.read()
+                ^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed)  local=tcp://127.0.0.1:33512 remote=tcp://127.0.0.1:41845>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:07:04,784 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:41845
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2882, in get_data_from_worker
+    comm = await rpc.connect(worker)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1485, in connect
+    return await self._connect(addr=addr, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1429, in _connect
+    comm = await connect(
+           ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/core.py", line 377, in connect
+    handshake = await comm.read()
+                ^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed)  local=tcp://127.0.0.1:33516 remote=tcp://127.0.0.1:41845>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:07:04,852 - distributed.nanny - WARNING - Restarting worker
+2026-02-06 15:07:05,562 - distributed.nanny.memory - WARNING - Worker tcp://127.0.0.1:36145 (pid=301656) exceeded 95% memory budget. Restarting...
+2026-02-06 15:07:05,702 - distributed.worker - ERROR - failed during get data with tcp://127.0.0.1:43959 -> tcp://127.0.0.1:36145
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 1801, in get_data
+    response = await comm.read(deserializers=serializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed)  local=tcp://127.0.0.1:43959 remote=tcp://127.0.0.1:57018>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:07:05,710 - distributed.scheduler - WARNING - Removing worker 'tcp://127.0.0.1:36145' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('getitem-52db73be138bcd6864d70850931f67dd', 7883, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7894, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7719, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7176, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7882, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7778, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7951, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7295, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8190, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7999, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8187, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7837, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7876, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7197, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8086, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7169, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7243, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8071, 0, 0), ('getitem-7d9a71bb7869d2b85acff9e8c22ecdac', 7173, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7703, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7952, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8117, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7918, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8130, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8023, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7342, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7836, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7180, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7886, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7327, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8051, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7848, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7401, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7798, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7932, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7696, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8110, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7691, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7722, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7856, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7869, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7694, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8050, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8063, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7888, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7915, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7366, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7928, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7887, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8093, 0, 0), ('getitem-7d9a71bb7869d2b85acff9e8c22ecdac', 7168, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7900, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7839, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7279, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7290, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7885, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8056, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7870, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8119, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7820, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7967, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7685, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7819, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7233, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8054, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8178, 0, 0), ('transpose-ba789f2f011db145142f3d6fbe094efc', 54, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7919, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7851, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7841, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7693, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7716, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7348, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7416, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8052, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7229, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7775, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8172, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7889, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7821, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8184, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8070, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7834, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7686, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7884, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7709, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8055, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7783, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7399, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7267, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7755, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7412, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7387, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7371, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8164, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7804, 0, 0), ('getitem-7d9a71bb7869d2b85acff9e8c22ecdac', 7172, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7697, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8053, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7321, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7222, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7692, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7941, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7931, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7756, 0, 0), ('getitem-7d9a71bb7869d2b85acff9e8c22ecdac', 7171, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8135, 0, 0), ('interpnd-interpnd_0-transpose-getitem-99fee14027eac91dd973392729cbf6f3', 50, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7926, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7977, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7751, 0, 0), ('getitem-7d9a71bb7869d2b85acff9e8c22ecdac', 7170, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8165, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7914, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7990, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7774, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7838, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7840, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7690, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7304, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7736, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7899, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7737, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7721, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7970, 0, 0), ('getitem-7d9a71bb7869d2b85acff9e8c22ecdac', 7169, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7303, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7252, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7824, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7835, 0, 0), ('transpose-ba789f2f011db145142f3d6fbe094efc', 54, 0, 1), ('getitem-52db73be138bcd6864d70850931f67dd', 7168, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8057, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7315, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8039, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7274, 0, 0)} (stimulus_id='handle-worker-cleanup-1770350825.7092044')
+2026-02-06 15:07:05,789 - distributed.nanny - WARNING - Restarting worker
+2026-02-06 15:07:08,612 - distributed.nanny.memory - WARNING - Worker tcp://127.0.0.1:39663 (pid=301618) exceeded 95% memory budget. Restarting...
+2026-02-06 15:07:08,672 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:39663
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2885, in get_data_from_worker
+    response = await send_recv(
+               ^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1018, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Ephemeral Worker->Worker for gather local=tcp://127.0.0.1:34924 remote=tcp://127.0.0.1:39663>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:07:08,683 - distributed.scheduler - WARNING - Removing worker 'tcp://127.0.0.1:39663' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('getitem-52db73be138bcd6864d70850931f67dd', 8042, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7338, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8176, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7905, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7730, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7895, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7844, 0, 0), ('array-530a9d0fb7f51fa36fa68de38b27d791', 8125, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7285, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7682, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8185, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7712, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8058, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7316, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7713, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7923, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7380, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7777, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7284, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8173, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7772, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7352, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8180, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8005, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7873, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7830, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8168, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7287, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7993, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7734, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7286, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8107, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7757, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7383, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7904, 0, 0), ('interpnd-interpnd_0-transpose-getitem-99fee14027eac91dd973392729cbf6f3', 51, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8166, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8150, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7981, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7607, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8004, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7963, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7257, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7976, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8034, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7384, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7382, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7938, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7897, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7379, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8002, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7849, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7687, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7868, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7761, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8170, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7288, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7782, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7276, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7299, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7289, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8013, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8003, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7363, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8016, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7878, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8084, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8153, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7803, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7927, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7270, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8186, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8156, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7922, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8148, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7613, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8171, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7996, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7724, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7714, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8111, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7181, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8009, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7194, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8083, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7935, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7833, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7341, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7773, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8068, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7930, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7943, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7212, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7994, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7758, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7400, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8007, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7367, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7283, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7707, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8094, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7385, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7251, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7210, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7680, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7398, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8112, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7213, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8162, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7802, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8134, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8097, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7208, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7852, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7831, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7825, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7988, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7175, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7282, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7706, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7322, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8183, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8008, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7378, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7381, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7350, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7206, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8158, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7421, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7942, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7808, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8006, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8177, 0, 0)} (stimulus_id='handle-worker-cleanup-1770350828.682606')
+2026-02-06 15:07:08,764 - distributed.nanny.memory - WARNING - Worker tcp://127.0.0.1:38733 (pid=301649) exceeded 95% memory budget. Restarting...
+2026-02-06 15:07:08,767 - distributed.nanny - WARNING - Restarting worker
+2026-02-06 15:07:08,825 - distributed.scheduler - WARNING - Removing worker 'tcp://127.0.0.1:38733' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('getitem-52db73be138bcd6864d70850931f67dd', 8029, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7867, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7826, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8030, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7199, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8101, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8128, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7397, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7953, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7420, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8027, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7776, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7392, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8147, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8015, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8174, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7964, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8028, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7847, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7864, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7372, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7718, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8099, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7741, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7865, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7859, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8098, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7256, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7771, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 5053, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7296, 0, 0), ('getitem-7d9a71bb7869d2b85acff9e8c22ecdac', 5062, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7934, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7759, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8157, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7177, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7846, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7739, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7314, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7843, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7695, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7343, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8082, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7325, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7916, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7945, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7760, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8151, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7386, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7742, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7857, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7816, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8138, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7829, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7879, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7704, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 5044, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7740, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7232, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8109, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7725, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7811, 0, 0), ('array-530a9d0fb7f51fa36fa68de38b27d791', 7620, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8149, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7984, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7974, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7268, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7291, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7997, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7822, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8032, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8152, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8179, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 5055, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8033, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7710, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7218, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7202, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8091, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7733, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7898, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8104, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7880, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8018, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8129, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7423, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7810, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7944, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8041, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7939, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8031, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7805, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8188, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8160, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8026, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7347, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7744, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8100, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7170, 0, 0), 'original-open_dataset-FLAG-c6b32d5ac97aed97e7234c6d042dac1e', ('getitem-52db73be138bcd6864d70850931f67dd', 7726, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8113, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7978, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8102, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7966, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7254, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7818, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7417, 0, 0), ('interpnd-interpnd_0-transpose-getitem-99fee14027eac91dd973392729cbf6f3', 56, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8131, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7862, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7902, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7877, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7871, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7861, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7328, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8073, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7715, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7874, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8106, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8123, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7415, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7230, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7920, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7745, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8126, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7892, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8114, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7823, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7832, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8127, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7326, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7855, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7979, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7854, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7860, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7413, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8103, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7743, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7890, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8122, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7223, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7738, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8125, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8175, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8124, 0, 0), ('concatenate-afce15e82cf2548798618110374af657', 5219, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7797, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7985, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8059, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7701, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7244, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7368, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7924, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8105, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7353, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8044, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7983, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7275, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7689, 0, 0)} (stimulus_id='handle-worker-cleanup-1770350828.8243058')
+2026-02-06 15:07:08,910 - distributed.nanny - WARNING - Restarting worker
+2026-02-06 15:07:12,061 - distributed.nanny.memory - WARNING - Worker tcp://127.0.0.1:39035 (pid=302002) exceeded 95% memory budget. Restarting...
+2026-02-06 15:07:12,102 - distributed.scheduler - WARNING - Removing worker 'tcp://127.0.0.1:39035' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('getitem-52db73be138bcd6864d70850931f67dd', 7561, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8141, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8092, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7611, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8116, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7396, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7610, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7817, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7917, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8076, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8066, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7567, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7991, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7866, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7557, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7971, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7863, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7603, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7231, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7937, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8035, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7961, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7606, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7850, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7565, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7809, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7553, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7215, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7940, 0, 0), ('concatenate-afce15e82cf2548798618110374af657', 5234, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7562, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7812, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7936, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7602, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7590, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8133, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8155, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8069, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7558, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7955, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7982, 0, 0), ('interpnd-interpnd_0-transpose-getitem-99fee14027eac91dd973392729cbf6f3', 49, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7858, 0, 0)} (stimulus_id='handle-worker-cleanup-1770350832.1019692')
+2026-02-06 15:07:12,100 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:39035
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2885, in get_data_from_worker
+    response = await send_recv(
+               ^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1018, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Ephemeral Worker->Worker for gather local=tcp://127.0.0.1:56676 remote=tcp://127.0.0.1:39035>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:07:12,101 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:39035
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2882, in get_data_from_worker
+    comm = await rpc.connect(worker)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1485, in connect
+    return await self._connect(addr=addr, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1429, in _connect
+    comm = await connect(
+           ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/core.py", line 377, in connect
+    handshake = await comm.read()
+                ^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed)  local=tcp://127.0.0.1:58724 remote=tcp://127.0.0.1:39035>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:07:12,148 - distributed.nanny - WARNING - Restarting worker
+2026-02-06 15:07:16,618 - distributed.nanny.memory - WARNING - Worker tcp://127.0.0.1:43959 (pid=301988) exceeded 95% memory budget. Restarting...
+2026-02-06 15:07:16,673 - distributed.scheduler - WARNING - Removing worker 'tcp://127.0.0.1:43959' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('getitem-52db73be138bcd6864d70850931f67dd', 8017, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7564, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7608, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7214, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7373, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7605, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7324, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7339, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8025, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8060, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7298, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7313, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7201, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8090, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7323, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7779, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7563, 0, 0), ('concatenate-afce15e82cf2548798618110374af657', 5806, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7556, 0, 0), ('getitem-7d9a71bb7869d2b85acff9e8c22ecdac', 7554, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7688, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7554, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7196, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8075, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7815, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7750, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7297, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7407, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7354, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7604, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7753, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7615, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8024, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8136, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7390, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7555, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8047, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7600, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7814, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7293, 0, 0), ('interpnd-interpnd_0-transpose-getitem-99fee14027eac91dd973392729cbf6f3', 52, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8146, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7601, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7998, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7612, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7893, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7355, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7292, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7609, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7376, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7559, 0, 0)} (stimulus_id='handle-worker-cleanup-1770350836.6729596')
+2026-02-06 15:07:16,672 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:43959
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2885, in get_data_from_worker
+    response = await send_recv(
+               ^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1018, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Ephemeral Worker->Worker for gather local=tcp://127.0.0.1:38680 remote=tcp://127.0.0.1:43959>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:07:16,681 - distributed.worker - ERROR - failed during get data with tcp://127.0.0.1:43849 -> tcp://127.0.0.1:43959
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 226, in read
+    frames_nosplit_nbytes_bin = await stream.read_bytes(fmt_size)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 1801, in get_data
+    response = await comm.read(deserializers=serializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 137, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed)  local=tcp://127.0.0.1:43849 remote=tcp://127.0.0.1:43342>: Stream is closed
+2026-02-06 15:07:16,720 - distributed.nanny - WARNING - Restarting worker
+2026-02-06 15:07:18,562 - distributed.nanny.memory - WARNING - Worker tcp://127.0.0.1:43395 (pid=302056) exceeded 95% memory budget. Restarting...
+2026-02-06 15:07:18,618 - distributed.scheduler - WARNING - Removing worker 'tcp://127.0.0.1:43395' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('getitem-52db73be138bcd6864d70850931f67dd', 7598, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7236, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8001, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7570, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7770, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7573, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7311, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7806, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7594, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7969, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7357, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7308, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7595, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7585, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7235, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7238, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7307, 0, 0), ('concatenate-afce15e82cf2548798618110374af657', 5704, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7409, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7195, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7965, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7320, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7359, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7597, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7507, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8000, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8169, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7406, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7241, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7219, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7319, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7309, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7360, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7515, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7310, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7566, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7575, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7278, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7702, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7356, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8048, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7271, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7228, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7306, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7405, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7240, 0, 0), ('interpnd-interpnd_0-transpose-getitem-99fee14027eac91dd973392729cbf6f3', 55, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7237, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7571, 0, 0)} (stimulus_id='handle-worker-cleanup-1770350838.6179488')
+2026-02-06 15:07:18,617 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:43395
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2882, in get_data_from_worker
+    comm = await rpc.connect(worker)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1485, in connect
+    return await self._connect(addr=addr, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1429, in _connect
+    comm = await connect(
+           ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/core.py", line 377, in connect
+    handshake = await comm.read()
+                ^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed)  local=tcp://127.0.0.1:40270 remote=tcp://127.0.0.1:43395>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:07:18,618 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:43395
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2882, in get_data_from_worker
+    comm = await rpc.connect(worker)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1485, in connect
+    return await self._connect(addr=addr, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1429, in _connect
+    comm = await connect(
+           ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/core.py", line 377, in connect
+    handshake = await comm.read()
+                ^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed)  local=tcp://127.0.0.1:40254 remote=tcp://127.0.0.1:43395>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:07:18,630 - distributed.diskutils - ERROR - Failed to remove '/jobfs/160000294.gadi-pbs/dask-scratch-space/worker-3ux7ywif/storage/%28%27getitem-52db73be138bcd6864d70850931f67dd%27%2C%207271%2C%200%2C%200%29#23' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-52db73be138bcd6864d70850931f67dd%27%2C%207271%2C%200%2C%200%29#23'
+2026-02-06 15:07:18,631 - distributed.diskutils - ERROR - Failed to remove '/jobfs/160000294.gadi-pbs/dask-scratch-space/worker-3ux7ywif/storage/%28%27getitem-52db73be138bcd6864d70850931f67dd%27%2C%207770%2C%200%2C%200%29#31' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-52db73be138bcd6864d70850931f67dd%27%2C%207770%2C%200%2C%200%29#31'
+2026-02-06 15:07:18,631 - distributed.diskutils - ERROR - Failed to remove '/jobfs/160000294.gadi-pbs/dask-scratch-space/worker-3ux7ywif/storage/%28%27getitem-52db73be138bcd6864d70850931f67dd%27%2C%207702%2C%200%2C%200%29#32' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-52db73be138bcd6864d70850931f67dd%27%2C%207702%2C%200%2C%200%29#32'
+2026-02-06 15:07:18,633 - distributed.diskutils - ERROR - Failed to remove '/jobfs/160000294.gadi-pbs/dask-scratch-space/worker-3ux7ywif/storage/%28%27getitem-52db73be138bcd6864d70850931f67dd%27%2C%207598%2C%200%2C%200%29#37' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-52db73be138bcd6864d70850931f67dd%27%2C%207598%2C%200%2C%200%29#37'
+2026-02-06 15:07:18,633 - distributed.diskutils - ERROR - Failed to remove '/jobfs/160000294.gadi-pbs/dask-scratch-space/worker-3ux7ywif/storage/%28%27getitem-52db73be138bcd6864d70850931f67dd%27%2C%207597%2C%200%2C%200%29#38' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-52db73be138bcd6864d70850931f67dd%27%2C%207597%2C%200%2C%200%29#38'
+2026-02-06 15:07:18,633 - distributed.diskutils - ERROR - Failed to remove '/jobfs/160000294.gadi-pbs/dask-scratch-space/worker-3ux7ywif/storage/%28%27getitem-52db73be138bcd6864d70850931f67dd%27%2C%207571%2C%200%2C%200%29#39' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-52db73be138bcd6864d70850931f67dd%27%2C%207571%2C%200%2C%200%29#39'
+2026-02-06 15:07:18,633 - distributed.diskutils - ERROR - Failed to remove '/jobfs/160000294.gadi-pbs/dask-scratch-space/worker-3ux7ywif/storage/%28%27getitem-52db73be138bcd6864d70850931f67dd%27%2C%207570%2C%200%2C%200%29#40' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-52db73be138bcd6864d70850931f67dd%27%2C%207570%2C%200%2C%200%29#40'
+2026-02-06 15:07:18,633 - distributed.diskutils - ERROR - Failed to remove '/jobfs/160000294.gadi-pbs/dask-scratch-space/worker-3ux7ywif/storage/shuffle-taker-8fd0e63e0541d244736fbbae7cb76fff#52' (failed in <built-in function unlink>): [Errno 2] No such file or directory: 'shuffle-taker-8fd0e63e0541d244736fbbae7cb76fff#52'
+2026-02-06 15:07:18,633 - distributed.diskutils - ERROR - Failed to remove '/jobfs/160000294.gadi-pbs/dask-scratch-space/worker-3ux7ywif/storage/%28%27getitem-52db73be138bcd6864d70850931f67dd%27%2C%207575%2C%200%2C%200%29#41' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-52db73be138bcd6864d70850931f67dd%27%2C%207575%2C%200%2C%200%29#41'
+2026-02-06 15:07:18,633 - distributed.diskutils - ERROR - Failed to remove '/jobfs/160000294.gadi-pbs/dask-scratch-space/worker-3ux7ywif/storage/%28%27getitem-52db73be138bcd6864d70850931f67dd%27%2C%207573%2C%200%2C%200%29#42' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-52db73be138bcd6864d70850931f67dd%27%2C%207573%2C%200%2C%200%29#42'
+2026-02-06 15:07:18,633 - distributed.diskutils - ERROR - Failed to remove '/jobfs/160000294.gadi-pbs/dask-scratch-space/worker-3ux7ywif/storage/%28%27getitem-52db73be138bcd6864d70850931f67dd%27%2C%207515%2C%200%2C%200%29#43' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27getitem-52db73be138bcd6864d70850931f67dd%27%2C%207515%2C%200%2C%200%29#43'
+2026-02-06 15:07:18,635 - distributed.diskutils - ERROR - Failed to remove '/jobfs/160000294.gadi-pbs/dask-scratch-space/worker-3ux7ywif/storage/%28%27array-f906a66a24ecd9f8413796a417907788%27%2C%200%2C%200%2C%200%29#47' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27array-f906a66a24ecd9f8413796a417907788%27%2C%200%2C%200%2C%200%29#47'
+2026-02-06 15:07:18,635 - distributed.diskutils - ERROR - Failed to remove '/jobfs/160000294.gadi-pbs/dask-scratch-space/worker-3ux7ywif/storage/%28%27array-f7c92e29e6ed56e80578e1c231a37297%27%2C%200%2C%200%2C%200%29#48' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27array-f7c92e29e6ed56e80578e1c231a37297%27%2C%200%2C%200%2C%200%29#48'
+2026-02-06 15:07:18,635 - distributed.diskutils - ERROR - Failed to remove '/jobfs/160000294.gadi-pbs/dask-scratch-space/worker-3ux7ywif/storage/%28%27array-f0954c0e6049b7564f1102494c654f49%27%2C%200%29#49' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27array-f0954c0e6049b7564f1102494c654f49%27%2C%200%29#49'
+2026-02-06 15:07:18,635 - distributed.diskutils - ERROR - Failed to remove '/jobfs/160000294.gadi-pbs/dask-scratch-space/worker-3ux7ywif/storage/%28%27array-4011b6168ebe0838800d334cd4c7684f%27%2C%200%29#50' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27array-4011b6168ebe0838800d334cd4c7684f%27%2C%200%29#50'
+2026-02-06 15:07:18,635 - distributed.diskutils - ERROR - Failed to remove '/jobfs/160000294.gadi-pbs/dask-scratch-space/worker-3ux7ywif/storage/original-open_dataset-FLAG-a55f5a10794b6fd700337050cf340f92#51' (failed in <built-in function unlink>): [Errno 2] No such file or directory: 'original-open_dataset-FLAG-a55f5a10794b6fd700337050cf340f92#51'
+2026-02-06 15:07:18,635 - distributed.diskutils - ERROR - Failed to remove '/jobfs/160000294.gadi-pbs/dask-scratch-space/worker-3ux7ywif/storage/%28%27array-b8e55e9f44c5f1a9d3d69c74e79949ac%27%2C%200%29#53' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27array-b8e55e9f44c5f1a9d3d69c74e79949ac%27%2C%200%29#53'
+2026-02-06 15:07:18,635 - distributed.diskutils - ERROR - Failed to remove '/jobfs/160000294.gadi-pbs/dask-scratch-space/worker-3ux7ywif/storage/%28%27array-ac2eec3d0e5b3483b27a55bea715beaa%27%2C%200%29#54' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27array-ac2eec3d0e5b3483b27a55bea715beaa%27%2C%200%29#54'
+2026-02-06 15:07:18,635 - distributed.diskutils - ERROR - Failed to remove '/jobfs/160000294.gadi-pbs/dask-scratch-space/worker-3ux7ywif/storage/%28%27mul-open_dataset-original-concatenate-afce15e82cf2548798618110374af657%27%2C%205704%2C%200%2C%200%29#55' (failed in <built-in function unlink>): [Errno 2] No such file or directory: '%28%27mul-open_dataset-original-concatenate-afce15e82cf2548798618110374af657%27%2C%205704%2C%200%2C%200%29#55'
+2026-02-06 15:07:18,641 - distributed.nanny - WARNING - Restarting worker
+2026-02-06 15:07:21,160 - distributed.nanny.memory - WARNING - Worker tcp://127.0.0.1:36027 (pid=302032) exceeded 95% memory budget. Restarting...
+2026-02-06 15:07:21,204 - distributed.scheduler - WARNING - Removing worker 'tcp://127.0.0.1:36027' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('getitem-52db73be138bcd6864d70850931f67dd', 7227, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7956, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8115, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8144, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7794, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7245, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7301, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8040, 0, 0), ('interpnd-interpnd_0-transpose-getitem-99fee14027eac91dd973392729cbf6f3', 54, 0, 0), ('getitem-7d9a71bb7869d2b85acff9e8c22ecdac', 7938, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7593, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7418, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8081, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7182, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7789, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7787, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7946, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7403, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7255, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7947, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7375, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8167, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8130, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7980, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8079, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7586, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7576, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7508, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8064, 0, 0), ('concatenate-afce15e82cf2548798618110374af657', 5192, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7747, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7239, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7800, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7335, 0, 0), ('getitem-7d9a71bb7869d2b85acff9e8c22ecdac', 7555, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7681, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8078, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7506, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7336, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7518, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7588, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7578, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7204, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8093, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7577, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8045, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8020, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7512, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7218, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7248, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7395, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7510, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7408, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8140, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8072, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7790, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7247, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7404, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8161, 0, 0), ('getitem-7d9a71bb7869d2b85acff9e8c22ecdac', 7553, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7552, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7312, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8067, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7580, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8142, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8132, 0, 0), ('getitem-7d9a71bb7869d2b85acff9e8c22ecdac', 7556, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7989, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7560, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7210, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8165, 0, 0), ('getitem-7d9a71bb7869d2b85acff9e8c22ecdac', 7557, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7591, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7972, 0, 0), ('getitem-7d9a71bb7869d2b85acff9e8c22ecdac', 7552, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7221, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8049, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7234, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7216, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7587, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7589, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8118, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7302, 0, 0)} (stimulus_id='handle-worker-cleanup-1770350841.2036576')
+2026-02-06 15:07:21,205 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:36027
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2885, in get_data_from_worker
+    response = await send_recv(
+               ^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1018, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Ephemeral Worker->Worker for gather local=tcp://127.0.0.1:37818 remote=tcp://127.0.0.1:36027>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:07:21,203 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:36027
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2882, in get_data_from_worker
+    comm = await rpc.connect(worker)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1485, in connect
+    return await self._connect(addr=addr, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1429, in _connect
+    comm = await connect(
+           ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/core.py", line 377, in connect
+    handshake = await comm.read()
+                ^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed)  local=tcp://127.0.0.1:35632 remote=tcp://127.0.0.1:36027>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:07:21,255 - distributed.nanny - WARNING - Restarting worker
+2026-02-06 15:07:21,362 - distributed.nanny.memory - WARNING - Worker tcp://127.0.0.1:38745 (pid=302110) exceeded 95% memory budget. Restarting...
+2026-02-06 15:07:21,391 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:38745
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2885, in get_data_from_worker
+    response = await send_recv(
+               ^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1018, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Ephemeral Worker->Worker for gather local=tcp://127.0.0.1:47732 remote=tcp://127.0.0.1:38745>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:07:21,394 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:38745
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2882, in get_data_from_worker
+    comm = await rpc.connect(worker)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1485, in connect
+    return await self._connect(addr=addr, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1429, in _connect
+    comm = await connect(
+           ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/core.py", line 377, in connect
+    handshake = await comm.read()
+                ^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed)  local=tcp://127.0.0.1:40786 remote=tcp://127.0.0.1:38745>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:07:21,393 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:38745
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2885, in get_data_from_worker
+    response = await send_recv(
+               ^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1018, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Ephemeral Worker->Worker for gather local=tcp://127.0.0.1:52494 remote=tcp://127.0.0.1:38745>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:07:21,426 - distributed.scheduler - ERROR - Task ('getitem-99fee14027eac91dd973392729cbf6f3', 56, 0, 0) marked as failed because 4 workers died while trying to run it
+2026-02-06 15:07:21,426 - distributed.scheduler - WARNING - Removing worker 'tcp://127.0.0.1:38745' caused the cluster to lose already computed task(s), which will be recomputed elsewhere: {('getitem-52db73be138bcd6864d70850931f67dd', 7995, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7411, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7973, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7967, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7992, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8053, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7200, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7517, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7941, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8135, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7592, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8050, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7581, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7513, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7990, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7394, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7949, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7579, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8163, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7331, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7225, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8052, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7229, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7950, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8121, 0, 0), ('interpnd-interpnd_0-transpose-getitem-99fee14027eac91dd973392729cbf6f3', 56, 0, 0), ('array-530a9d0fb7f51fa36fa68de38b27d791', 8049, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7516, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7986, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7952, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8184, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7391, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7511, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8061, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8145, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8108, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8023, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7596, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7584, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 7180, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8057, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8120, 0, 0), ('getitem-52db73be138bcd6864d70850931f67dd', 8039, 0, 0)} (stimulus_id='handle-worker-cleanup-1770350841.426332')
+2026-02-06 15:07:21,845 - distributed.nanny.memory - WARNING - Worker tcp://127.0.0.1:39873 (pid=302099) exceeded 95% memory budget. Restarting...
+2026-02-06 15:07:21,851 - distributed.nanny - WARNING - Restarting worker
+Traceback (most recent call last):
+  File "/home/548/cd3022/repos/Irradiance-comparisons/scripts/weather_systems/cj_wf_minmaxcl.py", line 121, in <module>
+    masked_ghi_mean.to_netcdf(f'{file_path}/{dataset}-{year}.nc')
+2026-02-06 15:07:21,879 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:39873
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2885, in get_data_from_worker
+    response = await send_recv(
+               ^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1018, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Ephemeral Worker->Worker for gather local=tcp://127.0.0.1:50318 remote=tcp://127.0.0.1:39873>: ConnectionResetError: [Errno 104] Connection reset by peer
+2026-02-06 15:07:21,880 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:39873
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2882, in get_data_from_worker
+    comm = await rpc.connect(worker)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1485, in connect
+    return await self._connect(addr=addr, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1429, in _connect
+    comm = await connect(
+           ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/core.py", line 377, in connect
+    handshake = await comm.read()
+                ^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed)  local=tcp://127.0.0.1:48206 remote=tcp://127.0.0.1:39873>: ConnectionResetError: [Errno 104] Connection reset by peer
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/core/dataset.py", line 2104, in to_netcdf
+2026-02-06 15:07:21,887 - distributed.worker - ERROR - Worker stream died during communication: tcp://127.0.0.1:39873
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/tornado/iostream.py", line 1113, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2079, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker.py", line 2882, in get_data_from_worker
+    comm = await rpc.connect(worker)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1485, in connect
+    return await self._connect(addr=addr, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/core.py", line 1429, in _connect
+    comm = await connect(
+           ^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/core.py", line 377, in connect
+    handshake = await comm.read()
+                ^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/comm/tcp.py", line 143, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed)  local=tcp://127.0.0.1:39128 remote=tcp://127.0.0.1:39873>: ConnectionResetError: [Errno 104] Connection reset by peer
+    return to_netcdf(  # type: ignore[return-value]  # mypy cannot resolve the overloads:(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/writers.py", line 450, in to_netcdf
+    writes = writer.sync(compute=compute)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/backends/common.py", line 416, in sync
+    delayed_store = chunkmanager.store(
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/xarray/namedarray/daskmanager.py", line 247, in store
+    return store(
+           ^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/dask/array/core.py", line 1221, in store
+    dask.compute(arrays, **kwargs)
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/dask/base.py", line 681, in compute
+    results = schedule(expr, keys, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/client.py", line 2416, in _gather
+    raise exception.with_traceback(traceback)
+distributed.scheduler.KilledWorker: Attempted to run task ('getitem-99fee14027eac91dd973392729cbf6f3', 56, 0, 0) on 4 different workers, but all those workers died while running it. The last worker that attempt to run the task was tcp://127.0.0.1:38745. Inspecting worker logs is often a good next step to diagnose what went wrong. For more information see https://distributed.dask.org/en/stable/killed.html.
+2026-02-06 15:07:22,660 - distributed.nanny - WARNING - Restarting worker
+2026-02-06 15:07:22,668 - distributed.worker.state_machine - WARNING - Async instruction for <Task cancelled name="execute(('interpnd-interpnd_0-transpose-getitem-99fee14027eac91dd973392729cbf6f3', 52, 0, 0))" coro=<Worker.execute() done, defined at /g/data/xp65/public/apps/med_conda/envs/analysis3-25.11/lib/python3.11/site-packages/distributed/worker_state_machine.py:3607>> ended with CancelledError
+
+======================================================================================
+                  Resource Usage on 2026-02-06 15:07:33:
+   Job Id:             160000294.gadi-pbs
+   Project:            er8
+   Exit Status:        1
+   Service Units:      8.77
+   NCPUs Requested:    48                  CPU Time Used: 00:23:55        
+   Memory Requested:   96.0GB                Memory Used: 84.07GB         
+   Walltime Requested: 01:00:00            Walltime Used: 00:05:29        
+   JobFS Requested:    10.0GB                 JobFS Used: 481.0B          
+======================================================================================

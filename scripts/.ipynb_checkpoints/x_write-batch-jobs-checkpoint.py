@@ -2,10 +2,11 @@ import subprocess
 from datetime import datetime, timedelta
 from dateutil.relativedelta import relativedelta
 
-script_to_run = '041.5_sea_breezes'
+script_to_run = 'weather_systems/cj_wf_minmaxcl'
 joboutdir = '/home/548/cd3022/repos/Irradiance-comparisons/scripts/qsub_jobs/'
 args = [
-    'himawari'
+    'himawari',
+    'maxcl',
 ]
 
 

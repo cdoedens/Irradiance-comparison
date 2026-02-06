@@ -1,0 +1,14 @@
+#!/bin/bash 
+#PBS -l walltime=1:00:00 
+#PBS -l mem=96GB 
+#PBS -l ncpus=48 
+#PBS -l jobfs=10GB 
+#PBS -l storage=gdata/xp65+gdata/er8+gdata/ob53+gdata/rt52+gdata/rv74+gdata/su28+scratch/er8+gdata/ng72 
+#PBS -l other=hyperthread 
+#PBS -q normal 
+#PBS -P er8 
+#PBS -o /home/548/cd3022/repos/Irradiance-comparisons/logs/weather_systems/cj_wf_minmaxcl___barra-r2___mincl___2024.oe 
+#PBS -j oe 
+cd /home/548/cd3022/repos/Irradiance-comparisons 
+source ./env.sh 
+python3 scripts/weather_systems/cj_wf_minmaxcl.py barra-r2 mincl 2024
