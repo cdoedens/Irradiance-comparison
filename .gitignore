@@ -1,2 +1,2 @@
-logs/*.oe
-scripts/qsub_jobs/*.qsub
+logs/
+scripts/qsub_jobs/
