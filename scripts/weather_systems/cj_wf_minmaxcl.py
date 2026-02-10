@@ -15,10 +15,10 @@ from dask.distributed import Client
 
 if __name__ == '__main__':
     
-    client = Client(
-        n_workers=12,
-        threads_per_worker=1
-    )
+    # client = Client(
+    #     n_workers=12,
+    #     threads_per_worker=1
+    # )
 
     dataset = sys.argv[1]
     wf = sys.argv[2]
