@@ -37,7 +37,7 @@ if __name__ == '__main__':
 
     ds = xr.open_zarr("/g/data/su28/himawari-ahi/cloud/ct/aus_regional_domain/S_NWC_CT_HIMA08_HIMA-N-NR.zarr/")
 
-    for i, month in enumerate(range(12, 13)):
+    for i, month in enumerate(range(1, 13)):
 
         month = f'{month:02d}'
 
@@ -96,8 +96,9 @@ if __name__ == '__main__':
         # AGGREGATE CT FOR MASK
         cloud_aggs = {
             'clear_sky':[1,2,3,4],
-            'low':[5,6],
-            'med':[7], 
+            # 'low':[5,6],
+            # 'med':[7], 
+            'low_med':[5,6,7],
             'high_opaque':[8,9],
             'high_semitransparent': [10,11,12,13,14] 
         }
@@ -109,6 +110,9 @@ if __name__ == '__main__':
 
         # CT DATA
         ct_ghi_monthly_mean = ct_ghi.mean(dim='time')
+        # remask himawari region
+        if dataset == 'himawari':
+            ct_ghi_monthly_mean = xr.where(ds_ghi.isel(time=5).ghi.isnull(), np.nan, ct_ghi_monthly_mean)
 
         # add metadata
         ct_ghi_monthly_mean = ct_ghi_monthly_mean.to_dataset(name=f'{ct}_ghi')

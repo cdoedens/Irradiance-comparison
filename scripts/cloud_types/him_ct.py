@@ -70,7 +70,7 @@ if __name__ == '__main__':
                 freq="10min"
             )
             ds_ghi = ds_ghi.reindex(time=full_time, fill_value=0)
-        elif dataset == 'barra-r2':
+        else:
             # ALIGN DATASETS
             him_ct = him_ct.interp(
                 lat=ds_ghi.lat,
@@ -96,8 +96,9 @@ if __name__ == '__main__':
         # AGGREGATE CT FOR MASK
         cloud_aggs = {
             'clear_sky':[1,2,3,4],
-            'low':[5,6],
-            'med':[7], 
+            # 'low':[5,6],
+            # 'med':[7], 
+            'low_med':[5,6,7],
             'high_opaque':[8,9],
             'high_semitransparent': [10,11,12,13,14] 
         }
